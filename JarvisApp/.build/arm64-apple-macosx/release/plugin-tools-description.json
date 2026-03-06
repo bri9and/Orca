@@ -1,0 +1,338 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.JarvisApp-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/sources",
+      "importPath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/JarvisApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ServerManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/SplashView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WebView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WindowAccessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "JarvisApp",
+      "moduleOutputPath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/Modules/JarvisApp.swiftmodule",
+      "objects" : [
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/ContentView.swift.o",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/JarvisApp.swift.o",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/ServerManager.swift.o",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/SplashView.swift.o",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/WebView.swift.o",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/WindowAccessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "10",
+        "-serialize-diagnostics",
+        "-O",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "JarvisApp_main",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "jarvisapp"
+      ],
+      "outputFileMapPath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/JarvisApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/ServerManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/SplashView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/WebView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/WindowAccessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/Modules/JarvisApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ContentView.swift",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/JarvisApp.swift",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ServerManager.swift",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/SplashView.swift",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WebView.swift",
+        "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WindowAccessor.swift"
+      ],
+      "tempsPath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "JarvisApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "JarvisApp",
+      "-package-name",
+      "jarvisapp",
+      "-c",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ContentView.swift",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/JarvisApp.swift",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ServerManager.swift",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/SplashView.swift",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WebView.swift",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WindowAccessor.swift",
+      "-I",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "10",
+      "-serialize-diagnostics",
+      "-O",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "JarvisApp_main",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "jarvisapp",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "JarvisApp" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/JarvisApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ServerManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/SplashView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WebView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WindowAccessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/sources"
+    },
+    "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/JarvisApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/ServerManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/SplashView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/WebView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.build/WindowAccessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/JarvisApp.product/Objects.LinkFileList"
+    },
+    "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

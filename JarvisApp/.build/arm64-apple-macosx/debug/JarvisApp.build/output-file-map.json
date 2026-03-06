@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/master.swiftdeps"
+  },
+  "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ContentView.swift": {
+    "dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ContentView.d",
+    "object": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ContentView.swift.o",
+    "swiftmodule": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ContentView.dia"
+  },
+  "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/JarvisApp.swift": {
+    "dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/JarvisApp.d",
+    "object": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/JarvisApp.swift.o",
+    "swiftmodule": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/JarvisApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/JarvisApp.swiftdeps",
+    "diagnostics": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/JarvisApp.dia"
+  },
+  "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/ServerManager.swift": {
+    "dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ServerManager.d",
+    "object": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ServerManager.swift.o",
+    "swiftmodule": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ServerManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ServerManager.swiftdeps",
+    "diagnostics": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/ServerManager.dia"
+  },
+  "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/SplashView.swift": {
+    "dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/SplashView.d",
+    "object": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/SplashView.swift.o",
+    "swiftmodule": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/SplashView~partial.swiftmodule",
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/SplashView.swiftdeps",
+    "diagnostics": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/SplashView.dia"
+  },
+  "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WebView.swift": {
+    "dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WebView.d",
+    "object": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WebView.swift.o",
+    "swiftmodule": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WebView~partial.swiftmodule",
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WebView.swiftdeps",
+    "diagnostics": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WebView.dia"
+  },
+  "/Users/cbas-mini/projects/orchestrator/JarvisApp/Sources/JarvisApp/WindowAccessor.swift": {
+    "dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WindowAccessor.d",
+    "object": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WindowAccessor.swift.o",
+    "swiftmodule": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WindowAccessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WindowAccessor.swiftdeps",
+    "diagnostics": "/Users/cbas-mini/projects/orchestrator/JarvisApp/.build/arm64-apple-macosx/debug/JarvisApp.build/WindowAccessor.dia"
+  }
+}
