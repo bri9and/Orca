@@ -59,3 +59,30 @@ Configured in `.mcp.json`:
 
 The local status dashboard runs at `http://localhost:3001` (separate from any project dev servers).
 Start it: `cd /Users/cbas-mini/projects/orchestrator/dashboard && npm run dev -- --port 3001`
+
+## Task Pipeline
+
+**IMPORTANT:** When working on any task, push it to the dashboard pipeline so the user can see progress in real time.
+
+Use the `pipeline` CLI at `./bin/pipeline`:
+
+```bash
+# Create a task (returns task ID)
+id=$(./bin/pipeline create "Task name" "Description" high coder)
+
+# Move through stages as you work
+./bin/pipeline update $id researching   # reading files, gathering info
+./bin/pipeline update $id planning      # making a plan
+./bin/pipeline update $id implementing  # writing code
+./bin/pipeline update $id reviewing     # verifying, testing
+./bin/pipeline update $id completed     # done
+
+# Check current pipeline
+./bin/pipeline list
+```
+
+Pipeline stages: `queued → researching → planning → implementing → reviewing → completed`
+Agents: `planner`, `coder`, `researcher`, `reviewer`, `writer`
+Priorities: `low`, `medium`, `high`
+
+Always create a task at the start of work and update its stage as you progress. For multi-step work, create multiple tasks.

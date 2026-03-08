@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+# Pipeline CLI — push tasks to the Jarvis dashboard
+# Usage:
+#   pipeline create "Task name" "Description" [priority] [agent]
+#   pipeline update <task-id> <stage>
+#   pipeline list
+#   pipeline clear
+
+DASHBOARD="http://localhost:3001"
+
+case "${1:-}" in
+  create)
+    name="${2:?Usage: pipeline create \"name\" \"description\" [priority] [agent]}"
+    desc="${3:-}"
+    priority="${4:-medium}"
+    agent="${5:-}"
+    body="{\"name\":$(printf '%s' "$name" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"description\":$(printf '%s' "$desc" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"priority\":\"$priority\"}"
+    if [ -n "$agent" ]; then
+      body="{\"name\":$(printf '%s' "$name" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"description\":$(printf '%s' "$desc" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"priority\":\"$priority\",\"agent\":\"$agent\"}"
+    fi
+    result=$(curl -s -X POST "$DASHBOARD/api/tasks" -H 'Content-Type: application/json' -d "$body" 2>/dev/null)
+    id=$(echo "$result" | python3 -c "import sys,json; print(json.load(sys.stdin)['id'])" 2>/dev/null)
+    if [ -n "$id" ]; then
+      echo "$id"
+    else
+      echo "Error: Could not create task (is dashboard running?)" >&2
+      exit 1
+    fi
+    ;;
+  update)
+    task_id="${2:?Usage: pipeline update <task-id> <stage>}"
+    stage="${3:?Usage: pipeline update <task-id> <stage>}"
+    curl -s -X PATCH "$DASHBOARD/api/tasks/$task_id" \
+      -H 'Content-Type: application/json' \
+      -d "{\"stage\":\"$stage\"}" > /dev/null 2>&1
+    echo "ok"
+    ;;
+  list)
+    curl -s "$DASHBOARD/api/tasks" 2>/dev/null | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+tasks = data.get('tasks', [])
+if not tasks:
+    print('No tasks in pipeline')
+else:
+    for t in tasks:
+        agent = t['assignedAgent'] or '-'
+        print(f\"  {t['id']:10s} [{t['stage']:14s}] {t['priority']:6s} {agent:10s} {t['name']}\")
+    print(f\"\n  Total: {len(tasks)} tasks, Tokens: {data.get('tokenCount', 0)}\")" 2>/dev/null || echo "Error: Dashboard not reachable"
+    ;;
+  clear)
+    echo "Note: clear requires server restart (in-memory store)"
+    ;;
+  *)
+    echo "Usage: pipeline <create|update|list|clear>"
+    echo ""
+    echo "  create \"name\" \"desc\" [low|medium|high] [planner|coder|researcher|reviewer|writer]"
+    echo "  update <task-id> <queued|researching|planning|implementing|reviewing|completed>"
+    echo "  list"
+    exit 1
+    ;;
+esac
