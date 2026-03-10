@@ -3,7 +3,9 @@
 # Usage:
 #   pipeline create "Task name" "Description" [priority] [agent]
 #   pipeline update <task-id> <stage>
+#   pipeline delete <task-id>
 #   pipeline list
+#   pipeline backup
 #   pipeline clear
 
 DASHBOARD="http://localhost:3001"
@@ -35,6 +37,18 @@ case "${1:-}" in
       -d "{\"stage\":\"$stage\"}" > /dev/null 2>&1
     echo "ok"
     ;;
+  delete)
+    task_id="${2:?Usage: pipeline delete <task-id>}"
+    result=$(curl -s -X DELETE "$DASHBOARD/api/tasks?id=$task_id" 2>/dev/null)
+    echo "$result" | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+if data.get('ok'):
+    print(f'Deleted {\"$task_id\"}')
+else:
+    print(f'Error: {data.get(\"error\", \"unknown\")}')
+" 2>/dev/null || echo "Error: Dashboard not reachable"
+    ;;
   list)
     curl -s "$DASHBOARD/api/tasks" 2>/dev/null | python3 -c "
 import sys, json
@@ -48,15 +62,27 @@ else:
         print(f\"  {t['id']:10s} [{t['stage']:14s}] {t['priority']:6s} {agent:10s} {t['name']}\")
     print(f\"\n  Total: {len(tasks)} tasks, Tokens: {data.get('tokenCount', 0)}\")" 2>/dev/null || echo "Error: Dashboard not reachable"
     ;;
+  backup)
+    curl -s -X POST "$DASHBOARD/api/tasks/backup" 2>/dev/null | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+if data.get('ok'):
+    print('Backup saved')
+else:
+    print('Error: backup failed')
+" 2>/dev/null || echo "Error: Dashboard not reachable"
+    ;;
   clear)
     echo "Note: clear requires server restart (in-memory store)"
     ;;
   *)
-    echo "Usage: pipeline <create|update|list|clear>"
+    echo "Usage: pipeline <create|update|delete|list|backup|clear>"
     echo ""
-    echo "  create \"name\" \"desc\" [low|medium|high] [planner|coder|researcher|reviewer|writer]"
-    echo "  update <task-id> <queued|researching|planning|implementing|reviewing|completed>"
+    echo "  create  \"name\" \"desc\" [low|medium|high] [planner|coder|researcher|reviewer|writer]"
+    echo "  update  <task-id> <queued|researching|planning|implementing|reviewing|completed>"
+    echo "  delete  <task-id>"
     echo "  list"
+    echo "  backup  — save snapshot to backups/pipeline/"
     exit 1
     ;;
 esac

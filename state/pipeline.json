@@ -1,0 +1,22 @@
+{
+  "nextId": 4,
+  "tokenCount": 0,
+  "tasks": [
+    {
+      "id": "task-1",
+      "name": "J-032: Fix pipeline persistence",
+      "description": "File-backed task store with auto-backup",
+      "stage": "completed",
+      "assignedAgent": null,
+      "priority": "high",
+      "createdAt": "2026-03-10T07:14:38.361Z",
+      "updatedAt": "2026-03-10T07:15:44.848Z"
+    }
+  ],
+  "taskAgentHistory": {
+    "task-1": [
+      "coder"
+    ]
+  },
+  "savedAt": "2026-03-10T07:15:45.348Z"
+}
