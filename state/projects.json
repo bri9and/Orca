@@ -1,0 +1,154 @@
+[
+  {
+    "name": "orchestrator",
+    "path": "/Users/cbas-mini/projects/orchestrator",
+    "description": "AI Agent Workspace — dashboard, agents, skills, pipeline CLI",
+    "repo": null,
+    "active": true
+  },
+  {
+    "name": "golf",
+    "path": "/Users/cbas-mini/projects/orchestrator/golf",
+    "description": "Kiely Web Design — boutique agency site (Next.js, Vercel)",
+    "repo": "https://github.com/bri9and/kwd",
+    "active": true
+  },
+  {
+    "name": "research",
+    "path": "/Users/cbas-mini/projects/research",
+    "description": "Research project",
+    "repo": null,
+    "active": true
+  },
+  {
+    "name": "softphone",
+    "path": "/Users/cbas-mini/projects/softphone",
+    "description": "Softphone project",
+    "repo": null,
+    "active": true
+  },
+  {
+    "name": "sansay",
+    "path": "/Users/cbas-mini/projects/sansay",
+    "description": "",
+    "repo": "https://github.com/bri9and/sansay",
+    "private": true,
+    "active": true
+  },
+  {
+    "name": "azoffices",
+    "path": "/Users/cbas-mini/projects/azoffices",
+    "description": "",
+    "repo": "https://github.com/bri9and/azoffices",
+    "private": false,
+    "active": true,
+    "note": "empty repo"
+  },
+  {
+    "name": "107",
+    "path": "/Users/cbas-mini/projects/107",
+    "description": "",
+    "repo": "https://github.com/bri9and/107",
+    "private": true,
+    "active": true
+  },
+  {
+    "name": "weathermin",
+    "path": "/Users/cbas-mini/projects/weathermin",
+    "description": "",
+    "repo": "https://github.com/bri9and/weathermin",
+    "private": false,
+    "active": true
+  },
+  {
+    "name": "myfamilymemory",
+    "path": "/Users/cbas-mini/projects/myfamilymemory",
+    "description": "",
+    "repo": "https://github.com/bri9and/myfamilymemory",
+    "private": true,
+    "active": true
+  },
+  {
+    "name": "reposcanner",
+    "path": "/Users/cbas-mini/projects/reposcanner",
+    "description": "",
+    "repo": "https://github.com/bri9and/reposcanner",
+    "private": false,
+    "active": true
+  },
+  {
+    "name": "diet",
+    "path": "/Users/cbas-mini/projects/diet",
+    "description": "",
+    "repo": "https://github.com/bri9and/diet",
+    "private": false,
+    "active": true
+  },
+  {
+    "name": "chores",
+    "path": "/Users/cbas-mini/projects/chores",
+    "description": "",
+    "repo": "https://github.com/bri9and/chores",
+    "private": true,
+    "active": true
+  },
+  {
+    "name": "ego_staging_cbas",
+    "path": "/Users/cbas-mini/projects/ego_staging_cbas",
+    "description": "",
+    "repo": "https://github.com/bri9and/ego_staging_cbas",
+    "private": true,
+    "active": true,
+    "note": "empty repo"
+  },
+  {
+    "name": "inventory",
+    "path": "/Users/cbas-mini/projects/inventory",
+    "description": "",
+    "repo": "https://github.com/bri9and/inventory",
+    "private": false,
+    "active": true,
+    "note": "empty repo"
+  },
+  {
+    "name": "rental-helper",
+    "path": "/Users/cbas-mini/projects/rental-helper",
+    "description": "",
+    "repo": "https://github.com/bri9and/rental-helper",
+    "private": false,
+    "active": true
+  },
+  {
+    "name": "scraper",
+    "path": "/Users/cbas-mini/projects/scraper",
+    "description": "",
+    "repo": "https://github.com/bri9and/scraper",
+    "private": false,
+    "active": true
+  },
+  {
+    "name": "voxCPM",
+    "path": "/Users/cbas-mini/projects/voxCPM",
+    "description": "",
+    "repo": "https://github.com/bri9and/voxCPM",
+    "private": false,
+    "active": true
+  },
+  {
+    "name": "rental-inventory",
+    "path": "/Users/cbas-mini/projects/rental-inventory",
+    "description": "",
+    "repo": "https://github.com/bri9and/rental-inventory",
+    "private": true,
+    "active": true,
+    "note": "empty repo"
+  },
+  {
+    "name": "flashcard",
+    "path": "/Users/cbas-mini/projects/flashcard",
+    "description": "flashcard app",
+    "repo": "https://github.com/bri9and/flashcard",
+    "private": true,
+    "active": true
+  }
+]

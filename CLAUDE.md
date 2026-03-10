@@ -6,6 +6,13 @@ You are an AI orchestrator with access to all projects under `/Users/cbas-mini/p
 - **Root**: `/Users/cbas-mini/projects`
 - **This config**: `/Users/cbas-mini/projects/orchestrator`
 - **All projects** in `/projects` are in scope
+- On session start, read `./state/session-log.md` to recover in-flight tasks and last known state
+- On session end, update `./state/session-log.md` with what was completed, what is in-flight, and any blockers
+
+## Project Discovery
+- Active projects are listed in `./state/projects.json` — read this file rather than scanning the filesystem every session
+- When a new project is added to `/projects`, register it in `projects.json` before beginning work
+- Never assume a project exists — verify against `projects.json` first
 
 ## Model Routing Rules
 
@@ -16,6 +23,11 @@ You are an AI orchestrator with access to all projects under `/Users/cbas-mini/p
 | Code review, fast Q&A, classification | GPT-4o via `reviewer` agent | Fast, strong reasoning |
 | Long-form writing, content | Claude Opus via `writer` agent | Best quality prose |
 | Task planning, decomposition | Claude Sonnet via `planner` agent | Structured thinking |
+
+**Cost discipline:**
+- Only route to Opus when the task explicitly requires long-form prose — default to Sonnet when uncertain
+- When cost-sensitive, prefer GPT-4o-mini for classification and short Q&A tasks
+- Invoke `skills/cost-aware-llm-pipeline/` before any task that will chain multiple model calls
 
 ## Agents
 
@@ -34,6 +46,7 @@ Reusable workflows in `./skills/`. Invoke when relevant:
 - `skills/code-review/` — `/code-review` command
 - `skills/tdd-workflow/` — `/tdd` command: test-driven development loop
 - `skills/cost-aware-llm-pipeline/` — Model selection and cost guidance
+- `skills/secscan/` — `/secscan` command: comprehensive security audit for any project
 
 ## Core Principles
 
@@ -41,7 +54,14 @@ Reusable workflows in `./skills/`. Invoke when relevant:
 2. **Plan before executing** — Use `planner` for anything with 3+ steps
 3. **Verify everything** — After edits, check the build still passes
 4. **Never guess API keys** — Read from environment variables only
-5. **Scope** — Only read/write within `/Users/cbas-mini/projects`. Do not touch `/sansay` or other home directories unless explicitly asked.
+5. **Scope** — Only read/write within `/Users/cbas-mini/projects`. Never create new top-level directories outside this path without explicit user confirmation. Do not touch `/sansay` or other home directories unless explicitly asked.
+
+## Failure & Fallback Behavior
+
+- If a model API is unreachable, log the failure to the pipeline task and surface it to the user — do not silently retry with a different model without flagging the substitution
+- If an agent fails to complete a task, mark the pipeline task as `blocked`, write the failure reason to `./state/session-log.md`, and halt — do not cascade the failure into dependent tasks
+- If the dashboard is unreachable, continue working and log pipeline updates to `./state/pipeline-fallback.log` for manual review
+- Never silently swallow errors — always surface them visibly
 
 ## Environment Variables
 
@@ -86,3 +106,16 @@ Agents: `planner`, `coder`, `researcher`, `reviewer`, `writer`
 Priorities: `low`, `medium`, `high`
 
 Always create a task at the start of work and update its stage as you progress. For multi-step work, create multiple tasks.
+
+## Backups & Recovery
+
+- All orchestrator config (agents, skills, CLAUDE.md, .mcp.json) is version controlled in git — commit after any structural change to the orchestrator itself
+- Pipeline state snapshots to `./backups/pipeline/` nightly; filename format: `pipeline-YYYY-MM-DD.json`
+- Retain pipeline snapshots for 30 days, then prune
+- Session logs in `./state/session-log.md` are append-only — never overwrite, only append
+- Recovery procedure:
+  1. `git checkout` restores full orchestrator config and agent/skill definitions
+  2. `cd dashboard && npm install && npm run dev -- --port 3001` restores dashboard
+  3. Read latest `./backups/pipeline/` snapshot to restore last known pipeline state
+  4. Read `./state/session-log.md` to identify any in-flight tasks at time of failure
+- Verify backup health weekly: confirm latest snapshot exists, is valid JSON, and contains expected task structure
