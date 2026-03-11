@@ -66,11 +66,11 @@
       "id": "task-9",
       "name": "J-038: Pickleball site",
       "description": "Replace fictional pickleball with real business (research pending)",
-      "stage": "completed",
-      "assignedAgent": null,
+      "stage": "researching",
+      "assignedAgent": "researcher",
       "priority": "medium",
       "createdAt": "2026-03-11T06:07:19.915Z",
-      "updatedAt": "2026-03-11T06:36:56.132Z"
+      "updatedAt": "2026-03-11T06:08:53.388Z"
     },
     {
       "id": "task-10",
@@ -143,5 +143,5 @@
       "reviewer"
     ]
   },
-  "savedAt": "2026-03-11T06:36:56.633Z"
+  "savedAt": "2026-03-11T06:36:56.475Z"
 }
