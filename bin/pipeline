@@ -16,9 +16,13 @@ case "${1:-}" in
     desc="${3:-}"
     priority="${4:-medium}"
     agent="${5:-}"
-    body="{\"name\":$(printf '%s' "$name" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"description\":$(printf '%s' "$desc" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"priority\":\"$priority\"}"
+    safe_name=$(printf '%s' "$name" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
+    safe_desc=$(printf '%s' "$desc" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
+    safe_priority=$(printf '%s' "$priority" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
+    body="{\"name\":$safe_name,\"description\":$safe_desc,\"priority\":$safe_priority}"
     if [ -n "$agent" ]; then
-      body="{\"name\":$(printf '%s' "$name" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"description\":$(printf '%s' "$desc" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))'),\"priority\":\"$priority\",\"agent\":\"$agent\"}"
+      safe_agent=$(printf '%s' "$agent" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
+      body="{\"name\":$safe_name,\"description\":$safe_desc,\"priority\":$safe_priority,\"agent\":$safe_agent}"
     fi
     result=$(curl -s -X POST "$DASHBOARD/api/tasks" -H 'Content-Type: application/json' -d "$body" 2>/dev/null)
     id=$(echo "$result" | python3 -c "import sys,json; print(json.load(sys.stdin)['id'])" 2>/dev/null)
@@ -32,9 +36,10 @@ case "${1:-}" in
   update)
     task_id="${2:?Usage: pipeline update <task-id> <stage>}"
     stage="${3:?Usage: pipeline update <task-id> <stage>}"
+    safe_stage=$(printf '%s' "$stage" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
     curl -s -X PATCH "$DASHBOARD/api/tasks/$task_id" \
       -H 'Content-Type: application/json' \
-      -d "{\"stage\":\"$stage\"}" > /dev/null 2>&1
+      -d "{\"stage\":$safe_stage}" > /dev/null 2>&1
     echo "ok"
     ;;
   delete)
