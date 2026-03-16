@@ -1,5 +1,5 @@
 {
-  "nextId": 34,
+  "nextId": 33,
   "tokenCount": 0,
   "tasks": [
     {
@@ -251,16 +251,6 @@
       "priority": "medium",
       "createdAt": "2026-03-16T01:17:56.623Z",
       "updatedAt": "2026-03-16T01:17:56.683Z"
-    },
-    {
-      "id": "task-33",
-      "name": "J-048: Version number in header top-right",
-      "description": "Single source in src/lib/version.ts, subtle monospace badge after nav CTA",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "medium",
-      "createdAt": "2026-03-16T01:37:27.233Z",
-      "updatedAt": "2026-03-16T01:37:27.268Z"
     }
   ],
   "taskAgentHistory": {
@@ -348,5 +338,5 @@
       "coder"
     ]
   },
-  "savedAt": "2026-03-16T01:37:27.769Z"
+  "savedAt": "2026-03-16T01:37:27.689Z"
 }

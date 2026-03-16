@@ -13,3 +13,19 @@
 **In-flight:** None
 
 **Blockers:** None
+
+---
+
+## 2026-03-15 — EWD Domain Suggestions + Jarvis Catchup
+
+**Completed:**
+- J-045: Hide taken domains from search results, show alternative suggestions instead
+- J-046: Fixed NameSilo rate-limiting — reduced from 9 parallel API calls to 1 batch
+- J-047: Expanded suggestion engine — prefixes/suffixes ×3 TLDs, hyphenated splits, plurals (40 candidates, 2 batches)
+- Backfilled projectlog.md: J-033 through J-047 (all tickets from sessions 2026-03-11 to 2026-03-15)
+- Updated pipeline: completed task-29, created task-30/31/32
+- Created session file 2026-03-15.md, updated session index
+
+**In-flight:** None
+
+**Blockers:** None

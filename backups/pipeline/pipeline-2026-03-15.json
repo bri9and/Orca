@@ -1,5 +1,5 @@
 {
-  "nextId": 34,
+  "nextId": 26,
   "tokenCount": 0,
   "tasks": [
     {
@@ -176,91 +176,11 @@
       "id": "task-25",
       "name": "J-039: EWD work session",
       "description": "Awaiting direction on EWD site changes",
-      "stage": "completed",
-      "assignedAgent": null,
+      "stage": "reviewing",
+      "assignedAgent": "reviewer",
       "priority": "medium",
       "createdAt": "2026-03-15T23:35:30.005Z",
-      "updatedAt": "2026-03-15T23:51:10.858Z"
-    },
-    {
-      "id": "task-26",
-      "name": "J-040: Stripe domain purchase flow",
-      "description": "Full self-service domain purchase: Stripe checkout → auto-register via NameSilo → confirmation",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "high",
-      "createdAt": "2026-03-16T00:04:53.268Z",
-      "updatedAt": "2026-03-16T00:10:57.258Z"
-    },
-    {
-      "id": "task-27",
-      "name": "J-041: Push EWD to GitHub",
-      "description": "Push EWD codebase to QuantumInnovations/egowebdesign repo",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "medium",
-      "createdAt": "2026-03-16T00:17:17.978Z",
-      "updatedAt": "2026-03-16T00:17:53.723Z"
-    },
-    {
-      "id": "task-28",
-      "name": "J-042: Point egowebdesign.com DNS to Vercel",
-      "description": "Update DNS records to connect domain to Vercel deployment",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "medium",
-      "createdAt": "2026-03-16T00:28:37.036Z",
-      "updatedAt": "2026-03-16T00:38:27.812Z"
-    },
-    {
-      "id": "task-29",
-      "name": "J-043: Hide taken domains, suggest alternatives",
-      "description": "Filter out unavailable domains and suggest similar names",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "medium",
-      "createdAt": "2026-03-16T01:00:29.806Z",
-      "updatedAt": "2026-03-16T01:17:48.524Z"
-    },
-    {
-      "id": "task-30",
-      "name": "J-045: Hide taken domains, show suggestions",
-      "description": "Filter unavailable domains from results, generate name variations and check availability",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "high",
-      "createdAt": "2026-03-16T01:17:56.107Z",
-      "updatedAt": "2026-03-16T01:17:56.168Z"
-    },
-    {
-      "id": "task-31",
-      "name": "J-046: Fix suggestion rate-limiting",
-      "description": "Reduce from 9 parallel API calls to single batch by generating from base name only",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "high",
-      "createdAt": "2026-03-16T01:17:56.376Z",
-      "updatedAt": "2026-03-16T01:17:56.450Z"
-    },
-    {
-      "id": "task-32",
-      "name": "J-047: Expand suggestion engine",
-      "description": "Prefixes/suffixes across .com/.net/.io, hyphenated splits, plurals — up to 40 candidates in 2 batches",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "medium",
-      "createdAt": "2026-03-16T01:17:56.623Z",
-      "updatedAt": "2026-03-16T01:17:56.683Z"
-    },
-    {
-      "id": "task-33",
-      "name": "J-048: Version number in header top-right",
-      "description": "Single source in src/lib/version.ts, subtle monospace badge after nav CTA",
-      "stage": "completed",
-      "assignedAgent": null,
-      "priority": "medium",
-      "createdAt": "2026-03-16T01:37:27.233Z",
-      "updatedAt": "2026-03-16T01:37:27.268Z"
+      "updatedAt": "2026-03-15T23:51:01.343Z"
     }
   ],
   "taskAgentHistory": {
@@ -336,17 +256,7 @@
       "planner",
       "coder",
       "reviewer"
-    ],
-    "task-26": [
-      "researcher",
-      "coder"
-    ],
-    "task-28": [
-      "researcher"
-    ],
-    "task-29": [
-      "coder"
     ]
   },
-  "savedAt": "2026-03-16T01:37:27.769Z"
+  "savedAt": "2026-03-15T23:51:11.196Z"
 }
