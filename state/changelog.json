@@ -1,0 +1,1277 @@
+{
+  "version": 1,
+  "nextEntryId": 91,
+  "entries": [
+    {
+      "id": 1,
+      "ticket": "J-032",
+      "taskId": "task-1",
+      "date": "2026-03-10T07:15:44.848Z",
+      "description": "J-032: Fix pipeline persistence: File-backed task store with auto-backup",
+      "project": "orchestrator",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 66
+    },
+    {
+      "id": 2,
+      "ticket": "J-033",
+      "taskId": "task-4",
+      "date": "2026-03-11T06:14:32.923Z",
+      "description": "J-033: Nicholas Electric site: Replace Steel City Electric with real Nicholas Electric Co.",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 442
+    },
+    {
+      "id": 3,
+      "ticket": "J-034",
+      "taskId": "task-5",
+      "date": "2026-03-11T06:14:32.932Z",
+      "description": "J-034: Zeke & Son Roofing site: Replace Ridgeline Roofing with real Zeke & Son (77yr, 3 gen)",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 4,
+      "ticket": "J-035",
+      "taskId": "task-6",
+      "date": "2026-03-11T06:14:32.941Z",
+      "description": "J-035: Patriot Pest Control site: Replace Mon Valley Pest with real Patriot Pest Control",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 5,
+      "ticket": "J-036",
+      "taskId": "task-7",
+      "date": "2026-03-11T06:14:32.957Z",
+      "description": "J-036: Grand View Golf Club site: Replace Confluence Golf with real Grand View Golf Club",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 6,
+      "ticket": "J-037",
+      "taskId": "task-8",
+      "date": "2026-03-11T06:14:32.967Z",
+      "description": "J-037: Caliguris Martial Arts site: Replace Iron City Martial Arts with real Caliguris Academy (birthplace of MMA)",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 7,
+      "ticket": "J-038",
+      "taskId": "task-9",
+      "date": "2026-03-11T06:36:56.132Z",
+      "description": "J-038: Pickleball site: Replace fictional pickleball with real business (research pending)",
+      "project": null,
+      "commits": [
+        "f66774b"
+      ],
+      "priority": "medium",
+      "durationSeconds": 1776
+    },
+    {
+      "id": 8,
+      "ticket": "J-039",
+      "taskId": "task-10",
+      "date": "2026-03-11T06:14:32.977Z",
+      "description": "J-039: DNA Custom Homes site: Replace Allegheny Heritage Homes with real DNA Custom Home Builders",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 9,
+      "ticket": "J-040",
+      "taskId": "task-11",
+      "date": "2026-03-11T06:14:32.986Z",
+      "description": "J-040: Kelly Realty site: Replace Fort Pitt Property with real John C.R. Kelly Realty (65yr)",
+      "project": null,
+      "commits": [
+        "d47d955"
+      ],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 10,
+      "ticket": "J-041",
+      "taskId": "task-12",
+      "date": "2026-03-11T06:14:32.995Z",
+      "description": "J-041: Inspirational Designs site: Replace Belmont Interior Design with real Inspirational Designs Inc.",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 433
+    },
+    {
+      "id": 11,
+      "ticket": "J-032",
+      "taskId": "task-13",
+      "date": "2026-03-15T23:01:28.947Z",
+      "description": "J-032: EWD Brand Colors: Apply EgoCalls brand color scheme (#0562EA, #09AAE7, #041B41, #FFF) to EWD site globals.css and all pages",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 150
+    },
+    {
+      "id": 12,
+      "ticket": "J-033",
+      "taskId": "task-14",
+      "date": "2026-03-15T23:06:31.420Z",
+      "description": "J-033: Interactive Hero Cards: Make hero card stack interactive with rotating content - clickable cards cycling through key value props",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 60
+    },
+    {
+      "id": 13,
+      "ticket": "J-034",
+      "taskId": "task-15",
+      "date": "2026-03-15T23:09:23.848Z",
+      "description": "J-034: Update EWD pricing from KWD reference: Reference kielywebdesign.com pricing and apply to EWD pricing page",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 53
+    },
+    {
+      "id": 14,
+      "ticket": "J-035",
+      "taskId": "task-16",
+      "date": "2026-03-15T23:13:30.018Z",
+      "description": "J-035: Full site review + pricing overhaul: Review entire EWD site, fix pricing to inline mobile-first layout, expandable details",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 76
+    },
+    {
+      "id": 15,
+      "ticket": "J-036",
+      "taskId": "task-17",
+      "date": "2026-03-15T23:18:11.389Z",
+      "description": "J-036: Debug pipeline visibility on dashboard: Investigate why pipeline tasks aren't showing on the orchestrator dashboard",
+      "project": "orchestrator",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 244
+    },
+    {
+      "id": 16,
+      "ticket": "J-037",
+      "taskId": "task-18",
+      "date": "2026-03-15T23:22:46.195Z",
+      "description": "J-037: Test pipeline UI: Verify task cards render correctly across all stages",
+      "project": "orchestrator",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 223
+    },
+    {
+      "id": 17,
+      "ticket": "J-038",
+      "taskId": "task-24",
+      "date": "2026-03-15T23:34:17.624Z",
+      "description": "J-038: Completed tasks history view: Add expandable completed tasks section to pipeline with full history",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 85
+    },
+    {
+      "id": 18,
+      "ticket": "J-039",
+      "taskId": "task-25",
+      "date": "2026-03-15T23:51:10.858Z",
+      "description": "J-039: EWD work session: Awaiting direction on EWD site changes",
+      "project": "ewd",
+      "commits": [],
+      "priority": "medium",
+      "durationSeconds": 940
+    },
+    {
+      "id": 19,
+      "ticket": "J-040",
+      "taskId": "task-26",
+      "date": "2026-03-16T00:10:57.258Z",
+      "description": "J-040: Stripe domain purchase flow: Full self-service domain purchase: Stripe checkout \u2192 auto-register via NameSilo \u2192 confirmation",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 363
+    },
+    {
+      "id": 20,
+      "ticket": "J-041",
+      "taskId": "task-27",
+      "date": "2026-03-16T00:17:53.723Z",
+      "description": "J-041: Push EWD to GitHub: Push EWD codebase to QuantumInnovations/egowebdesign repo",
+      "project": "ewd",
+      "commits": [],
+      "priority": "medium",
+      "durationSeconds": 35
+    },
+    {
+      "id": 21,
+      "ticket": "J-042",
+      "taskId": "task-28",
+      "date": "2026-03-16T00:38:27.812Z",
+      "description": "J-042: Point egowebdesign.com DNS to Vercel: Update DNS records to connect domain to Vercel deployment",
+      "project": null,
+      "commits": [],
+      "priority": "medium",
+      "durationSeconds": 590
+    },
+    {
+      "id": 22,
+      "ticket": "J-043",
+      "taskId": "task-29",
+      "date": "2026-03-16T01:17:48.524Z",
+      "description": "J-043: Hide taken domains, suggest alternatives: Filter out unavailable domains and suggest similar names",
+      "project": null,
+      "commits": [],
+      "priority": "medium",
+      "durationSeconds": 1038
+    },
+    {
+      "id": 23,
+      "ticket": "J-045",
+      "taskId": "task-30",
+      "date": "2026-03-16T01:17:56.168Z",
+      "description": "J-045: Hide taken domains, show suggestions: Filter unavailable domains from results, generate name variations and check availability",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 24,
+      "ticket": "J-046",
+      "taskId": "task-31",
+      "date": "2026-03-16T01:17:56.450Z",
+      "description": "J-046: Fix suggestion rate-limiting: Reduce from 9 parallel API calls to single batch by generating from base name only",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 25,
+      "ticket": "J-047",
+      "taskId": "task-32",
+      "date": "2026-03-16T01:17:56.683Z",
+      "description": "J-047: Expand suggestion engine: Prefixes/suffixes across .com/.net/.io, hyphenated splits, plurals \u2014 up to 40 candidates in 2 batches",
+      "project": null,
+      "commits": [],
+      "priority": "medium",
+      "durationSeconds": 0
+    },
+    {
+      "id": 26,
+      "ticket": "J-048",
+      "taskId": "task-33",
+      "date": "2026-03-16T01:37:27.268Z",
+      "description": "J-048: Version number in header top-right: Single source in src/lib/version.ts, subtle monospace badge after nav CTA",
+      "project": null,
+      "commits": [],
+      "priority": "medium",
+      "durationSeconds": 0
+    },
+    {
+      "id": 27,
+      "ticket": null,
+      "taskId": "task-34",
+      "date": "2026-03-17T00:34:03.543Z",
+      "description": "EWD: Edgewood Monuments: Scrape edgewoodmonuments.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 285
+    },
+    {
+      "id": 28,
+      "ticket": null,
+      "taskId": "task-35",
+      "date": "2026-03-17T00:35:37.342Z",
+      "description": "EWD: Varney Family Law: Scrape varneyfamilylaw.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 379
+    },
+    {
+      "id": 29,
+      "ticket": null,
+      "taskId": "task-36",
+      "date": "2026-03-17T00:33:46.800Z",
+      "description": "EWD: Fab Quantum Harmony: Scrape fabquantumharmony.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 268
+    },
+    {
+      "id": 30,
+      "ticket": null,
+      "taskId": "task-37",
+      "date": "2026-03-17T00:36:30.474Z",
+      "description": "EWD: SSA K-12: Scrape ssak12.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 432
+    },
+    {
+      "id": 31,
+      "ticket": null,
+      "taskId": "task-38",
+      "date": "2026-03-17T00:34:14.891Z",
+      "description": "EWD: Big Door Realty: Scrape bigdoorrealty.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 296
+    },
+    {
+      "id": 32,
+      "ticket": null,
+      "taskId": "task-39",
+      "date": "2026-03-17T00:35:09.994Z",
+      "description": "EWD: Palace Auto Detail: Scrape palaceautodetail.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 351
+    },
+    {
+      "id": 33,
+      "ticket": null,
+      "taskId": "task-40",
+      "date": "2026-03-17T00:35:51.773Z",
+      "description": "EWD: Vitesse Worldwide: Scrape vitesseworldwide.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 393
+    },
+    {
+      "id": 34,
+      "ticket": null,
+      "taskId": "task-41",
+      "date": "2026-03-17T00:35:36.002Z",
+      "description": "EWD: ServPro Phoenix: Scrape servprophoenix.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [
+        "94db02f"
+      ],
+      "priority": "high",
+      "durationSeconds": 377
+    },
+    {
+      "id": 35,
+      "ticket": null,
+      "taskId": "task-42",
+      "date": "2026-03-17T00:36:46.845Z",
+      "description": "EWD: MBA Real Estate: Scrape mba-re.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 447
+    },
+    {
+      "id": 36,
+      "ticket": null,
+      "taskId": "task-43",
+      "date": "2026-03-17T00:35:42.161Z",
+      "description": "EWD: CMP Holdings: Scrape cmpholdings.net, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 383
+    },
+    {
+      "id": 37,
+      "ticket": null,
+      "taskId": "task-44",
+      "date": "2026-03-17T00:36:09.332Z",
+      "description": "EWD: MRI Software: Scrape mrisoftware.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 410
+    },
+    {
+      "id": 38,
+      "ticket": null,
+      "taskId": "task-45",
+      "date": "2026-03-17T00:36:04.914Z",
+      "description": "EWD: Harbor Counseling: Scrape theharborcounseling.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 405
+    },
+    {
+      "id": 39,
+      "ticket": null,
+      "taskId": "task-46",
+      "date": "2026-03-17T00:35:17.503Z",
+      "description": "EWD: Andersons Nutrition: Scrape andersonsnutrition.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 357
+    },
+    {
+      "id": 40,
+      "ticket": null,
+      "taskId": "task-47",
+      "date": "2026-03-17T00:38:07.065Z",
+      "description": "EWD: Western Cleaning Solutions: Scrape westerncleaningsolutions.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 527
+    },
+    {
+      "id": 41,
+      "ticket": null,
+      "taskId": "task-48",
+      "date": "2026-03-17T00:38:46.458Z",
+      "description": "EWD: KOACC: Scrape koacc.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 566
+    },
+    {
+      "id": 42,
+      "ticket": null,
+      "taskId": "task-49",
+      "date": "2026-03-17T00:38:21.856Z",
+      "description": "EWD: LCR Law Office: Scrape lcrlawoffice.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 541
+    },
+    {
+      "id": 43,
+      "ticket": null,
+      "taskId": "task-50",
+      "date": "2026-03-17T00:36:35.146Z",
+      "description": "EWD: LeBaron Carroll: Scrape LeBaronCarroll.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 435
+    },
+    {
+      "id": 44,
+      "ticket": null,
+      "taskId": "task-51",
+      "date": "2026-03-17T00:38:29.721Z",
+      "description": "EWD: Great Bell Inc: Scrape greatbellinc.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [
+        "0de3efc"
+      ],
+      "priority": "high",
+      "durationSeconds": 549
+    },
+    {
+      "id": 45,
+      "ticket": null,
+      "taskId": "task-52",
+      "date": "2026-03-17T00:38:15.442Z",
+      "description": "EWD: East Valley Mediator: Scrape eastvalleymediator.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 535
+    },
+    {
+      "id": 46,
+      "ticket": null,
+      "taskId": "task-53",
+      "date": "2026-03-17T00:38:32.512Z",
+      "description": "EWD: Marshall Law Firm: Scrape themarshalllawfirmpllc.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 552
+    },
+    {
+      "id": 47,
+      "ticket": null,
+      "taskId": "task-54",
+      "date": "2026-03-17T00:37:55.824Z",
+      "description": "EWD: Peterson Law Firm: Scrape thepetersonlawfirm.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 515
+    },
+    {
+      "id": 48,
+      "ticket": null,
+      "taskId": "task-55",
+      "date": "2026-03-17T00:37:38.637Z",
+      "description": "EWD: Arizona Law Group: Scrape arizonalawgroup.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 497
+    },
+    {
+      "id": 49,
+      "ticket": null,
+      "taskId": "task-56",
+      "date": "2026-03-17T01:54:40.542Z",
+      "description": "EWD: AZ Offices: Scrape azoffices.com, extract content/images, build portfolio site for Ego Web Design",
+      "project": "ewd",
+      "commits": [
+        "37f80fa",
+        "797ded8"
+      ],
+      "priority": "high",
+      "durationSeconds": 5119
+    },
+    {
+      "id": 50,
+      "ticket": null,
+      "taskId": "task-57",
+      "date": "2026-03-17T02:20:09.096Z",
+      "description": "QA: Full audit of all 22 EWD sites: Comprehensive QA sweep \u2014 phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
+      "project": "ewd",
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "72bbbc6",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 51,
+      "ticket": null,
+      "taskId": "task-58",
+      "date": "2026-03-17T02:20:22.256Z",
+      "description": "Fix: Logos \u2014 ServPro, MBA, East Valley, AZ Law Group: Add actual business logos to 4 sites that had icon/text placeholders",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 52,
+      "ticket": null,
+      "taskId": "task-59",
+      "date": "2026-03-17T02:20:22.472Z",
+      "description": "Fix: Nav links \u2014 CMP, ServPro, East Valley, Anderson's, Great Bell: Convert non-functional spans to anchor links, add section IDs for smooth scroll",
+      "project": null,
+      "commits": [
+        "0de3efc",
+        "72bbbc6",
+        "94db02f"
+      ],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 53,
+      "ticket": null,
+      "taskId": "task-60",
+      "date": "2026-03-17T02:20:22.694Z",
+      "description": "Build: AZ Offices portfolio site: New site \u2014 8 real photos, 3 locations, real pricing, scraped from offices.co",
+      "project": null,
+      "commits": [
+        "37f80fa",
+        "797ded8"
+      ],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 54,
+      "ticket": null,
+      "taskId": "task-61",
+      "date": "2026-03-17T02:20:22.901Z",
+      "description": "Fix: AZ Law Group attorney photo cropping: Increased image height h-56\u2192h-64, repositioned object-position to prevent face cutoff",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 55,
+      "ticket": null,
+      "taskId": "task-62",
+      "date": "2026-03-17T02:20:23.109Z",
+      "description": "Fix: CMP Holdings fake 555 phone number: Removed fake (412) 555-0100, replaced with mailto contact link",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 0
+    },
+    {
+      "id": 56,
+      "ticket": null,
+      "taskId": "task-63",
+      "date": "2026-03-17T02:51:08.709Z",
+      "description": "QA: Anderson's Nutrition: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 194
+    },
+    {
+      "id": 57,
+      "ticket": null,
+      "taskId": "task-64",
+      "date": "2026-03-17T02:51:08.757Z",
+      "description": "QA: Arizona Law Group: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for arizona-law-group",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 193
+    },
+    {
+      "id": 58,
+      "ticket": null,
+      "taskId": "task-65",
+      "date": "2026-03-17T02:51:08.804Z",
+      "description": "QA: AZ Offices: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for az-offices",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "37f80fa",
+        "797ded8",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 193
+    },
+    {
+      "id": 59,
+      "ticket": null,
+      "taskId": "task-66",
+      "date": "2026-03-17T02:51:08.844Z",
+      "description": "QA: Big Door Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for big-door-realty",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 193
+    },
+    {
+      "id": 60,
+      "ticket": null,
+      "taskId": "task-67",
+      "date": "2026-03-17T02:51:08.885Z",
+      "description": "QA: Caliguri's Martial Arts: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 193
+    },
+    {
+      "id": 61,
+      "ticket": null,
+      "taskId": "task-68",
+      "date": "2026-03-17T02:49:55.205Z",
+      "description": "QA: Cirigliano Plumbing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 119
+    },
+    {
+      "id": 62,
+      "ticket": null,
+      "taskId": "task-69",
+      "date": "2026-03-17T02:49:55.577Z",
+      "description": "QA: CMP Holdings: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cmp-holdings",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 119
+    },
+    {
+      "id": 63,
+      "ticket": null,
+      "taskId": "task-70",
+      "date": "2026-03-17T02:49:56.469Z",
+      "description": "QA: DNA Custom Homes: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 120
+    },
+    {
+      "id": 64,
+      "ticket": null,
+      "taskId": "task-71",
+      "date": "2026-03-17T02:49:56.968Z",
+      "description": "QA: East Valley Mediator: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 120
+    },
+    {
+      "id": 65,
+      "ticket": null,
+      "taskId": "task-72",
+      "date": "2026-03-17T02:49:57.348Z",
+      "description": "QA: Edgewood Monuments: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 121
+    },
+    {
+      "id": 66,
+      "ticket": null,
+      "taskId": "task-73",
+      "date": "2026-03-17T02:50:23.558Z",
+      "description": "QA: FAB Quantum Harmony: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 147
+    },
+    {
+      "id": 67,
+      "ticket": null,
+      "taskId": "task-74",
+      "date": "2026-03-17T02:50:24.349Z",
+      "description": "QA: Grand View Golf: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for grand-view-golf",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 147
+    },
+    {
+      "id": 68,
+      "ticket": null,
+      "taskId": "task-75",
+      "date": "2026-03-17T02:50:24.779Z",
+      "description": "QA: Great Bell Inc: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for great-bell-inc",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "0de3efc",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 147
+    },
+    {
+      "id": 69,
+      "ticket": null,
+      "taskId": "task-76",
+      "date": "2026-03-17T02:50:25.216Z",
+      "description": "QA: Harbor Counseling: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for harbor-counseling",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 148
+    },
+    {
+      "id": 70,
+      "ticket": null,
+      "taskId": "task-77",
+      "date": "2026-03-17T02:50:25.787Z",
+      "description": "QA: Inspirational Designs: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for inspirational-designs",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 148
+    },
+    {
+      "id": 71,
+      "ticket": null,
+      "taskId": "task-78",
+      "date": "2026-03-17T02:49:39.434Z",
+      "description": "QA: Kelly Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for kelly-realty",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 102
+    },
+    {
+      "id": 72,
+      "ticket": null,
+      "taskId": "task-79",
+      "date": "2026-03-17T02:49:39.533Z",
+      "description": "QA: KOACC: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for koacc",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 101
+    },
+    {
+      "id": 73,
+      "ticket": null,
+      "taskId": "task-80",
+      "date": "2026-03-17T02:49:39.725Z",
+      "description": "QA: LCR Law Office: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lcr-law-office",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 101
+    },
+    {
+      "id": 74,
+      "ticket": null,
+      "taskId": "task-81",
+      "date": "2026-03-17T02:49:39.977Z",
+      "description": "QA: LeBaron Carroll: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 102
+    },
+    {
+      "id": 75,
+      "ticket": null,
+      "taskId": "task-82",
+      "date": "2026-03-17T02:49:40.530Z",
+      "description": "QA: Marshall Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 102
+    },
+    {
+      "id": 76,
+      "ticket": null,
+      "taskId": "task-83",
+      "date": "2026-03-17T02:50:20.610Z",
+      "description": "QA: MBA Real Estate: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mba-real-estate",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 142
+    },
+    {
+      "id": 77,
+      "ticket": null,
+      "taskId": "task-84",
+      "date": "2026-03-17T02:50:21.481Z",
+      "description": "QA: MRI Software: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mri-software",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 142
+    },
+    {
+      "id": 78,
+      "ticket": null,
+      "taskId": "task-85",
+      "date": "2026-03-17T02:50:21.927Z",
+      "description": "QA: Nicholas Electric: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for nicholas-electric",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 143
+    },
+    {
+      "id": 79,
+      "ticket": null,
+      "taskId": "task-86",
+      "date": "2026-03-17T02:50:22.388Z",
+      "description": "QA: Palace Auto Detail: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 143
+    },
+    {
+      "id": 80,
+      "ticket": null,
+      "taskId": "task-87",
+      "date": "2026-03-17T02:50:22.927Z",
+      "description": "QA: Patriot Pest Control: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 143
+    },
+    {
+      "id": 81,
+      "ticket": null,
+      "taskId": "task-88",
+      "date": "2026-03-17T02:50:04.874Z",
+      "description": "QA: Peterson Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 125
+    },
+    {
+      "id": 82,
+      "ticket": null,
+      "taskId": "task-89",
+      "date": "2026-03-17T02:50:05.322Z",
+      "description": "QA: ServPro Phoenix: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 125
+    },
+    {
+      "id": 83,
+      "ticket": null,
+      "taskId": "task-90",
+      "date": "2026-03-17T02:50:05.713Z",
+      "description": "QA: SSA K-12: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for ssa-k12",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 126
+    },
+    {
+      "id": 84,
+      "ticket": null,
+      "taskId": "task-91",
+      "date": "2026-03-17T02:50:06.342Z",
+      "description": "QA: Three Rivers Pickleball: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 126
+    },
+    {
+      "id": 85,
+      "ticket": null,
+      "taskId": "task-92",
+      "date": "2026-03-17T02:50:06.662Z",
+      "description": "QA: Varney Family Law: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for varney-family-law",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 126
+    },
+    {
+      "id": 86,
+      "ticket": null,
+      "taskId": "task-93",
+      "date": "2026-03-17T02:49:46.874Z",
+      "description": "QA: Vitesse Worldwide: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 106
+    },
+    {
+      "id": 87,
+      "ticket": null,
+      "taskId": "task-94",
+      "date": "2026-03-17T02:49:47.852Z",
+      "description": "QA: Western Cleaning Solutions: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 107
+    },
+    {
+      "id": 88,
+      "ticket": null,
+      "taskId": "task-95",
+      "date": "2026-03-17T02:49:47.993Z",
+      "description": "QA: Zeke & Son Roofing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 107
+    },
+    {
+      "id": 89,
+      "ticket": null,
+      "taskId": "task-96",
+      "date": "2026-03-17T02:52:44.271Z",
+      "description": "Fix: Kelly Realty logo: Download and add actual logo image",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 114
+    },
+    {
+      "id": 90,
+      "ticket": null,
+      "taskId": "task-97",
+      "date": "2026-03-17T02:55:03.042Z",
+      "description": "Fix: Three Rivers Pickleball \u2014 555 phone, logo, images, footer: Critical fixes: fake phone, unused logo, zero images, missing EWD credit",
+      "project": null,
+      "commits": [
+        "f66774b",
+        "d47d955",
+        "94db02f",
+        "825b22e",
+        "dd2a45f",
+        "bb943ad"
+      ],
+      "priority": "high",
+      "durationSeconds": 135
+    }
+  ]
+}

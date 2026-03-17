@@ -161,6 +161,43 @@ Priorities: `low`, `medium`, `high`
 
 Always create a task at the start of work and update its stage as you progress. For multi-step work, create multiple tasks.
 
+**Ticket discipline:** Every task MUST include a ticket number (J-XXX) in the name. Get the next number from `memory/projectlog.md`. Format: `"J-048: Task description"`. Update projectlog.md when work is committed.
+
+## Changelog & History
+
+Every completed task is automatically logged to `state/changelog.json` — the single source of truth for all completed work.
+
+Each entry contains:
+- **Ticket** (J-XXX) — parsed from task name
+- **Date** — completion timestamp
+- **Description** — what changed
+- **Commits** — git SHA(s) for revert capability
+- **Project** — which project was affected
+- **Priority** and **duration**
+
+**Automatic logging:** When `./bin/pipeline update <id> completed` is called, the CLI:
+1. Marks the task as completed in the dashboard
+2. Captures `git rev-parse --short HEAD` as the commit hash
+3. Posts the changelog entry to the dashboard API
+
+**Viewing history:**
+- **Dashboard**: Completed section shows ticket #, commit hash, duration, date
+- **CLI**: `./bin/pipeline changelog` — last 20 entries
+- **CLI**: `./bin/pipeline changelog 100` — last 100 entries
+- **File**: `state/changelog.json` — raw JSON, full history
+
+**Revert capability:** Each entry references git commits. To revert:
+```bash
+./bin/pipeline revert <task-id>    # prints the git revert command
+git revert <commit-hash>           # execute manually
+```
+
+**Cross-references:**
+- `memory/projectlog.md` — ticket index with descriptions and dates
+- `state/changelog.json` — machine-readable history with commit hashes
+- `state/pipeline.json` — live pipeline state
+- Dashboard completed view — visual history with search/filter
+
 ## Backups & Recovery
 
 - All orchestrator config (agents, skills, CLAUDE.md, .mcp.json) is version controlled in git — commit after any structural change to the orchestrator itself

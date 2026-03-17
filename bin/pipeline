@@ -7,6 +7,8 @@
 #   pipeline list
 #   pipeline backup
 #   pipeline clear
+#   pipeline changelog [limit]
+#   pipeline revert <task-id>
 
 DASHBOARD="http://localhost:3001"
 
@@ -41,6 +43,46 @@ case "${1:-}" in
       -H 'Content-Type: application/json' \
       -d "{\"stage\":$safe_stage}" > /dev/null 2>&1
     echo "ok"
+
+    # Auto-changelog on completion
+    if [ "$stage" = "completed" ]; then
+      task_json=$(curl -s "$DASHBOARD/api/tasks" 2>/dev/null)
+      task_data=$(echo "$task_json" | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+tasks = data.get('tasks', [])
+for t in tasks:
+    if t['id'] == '$task_id':
+        print(json.dumps(t))
+        sys.exit(0)
+print('')
+" 2>/dev/null)
+
+      if [ -n "$task_data" ]; then
+        git_sha=$(git -C /Users/cbas-mini/projects rev-parse --short HEAD 2>/dev/null || echo "")
+        changelog_body=$(echo "$task_data" | python3 -c "
+import sys, json
+t = json.load(sys.stdin)
+sha = '$git_sha'
+entry = {
+    'taskId': t['id'],
+    'name': t.get('name', ''),
+    'description': t.get('description', ''),
+    'priority': t.get('priority', 'medium'),
+    'commits': [sha] if sha else [],
+    'createdAt': t.get('createdAt', ''),
+    'completedAt': t.get('updatedAt', ''),
+}
+print(json.dumps(entry))
+" 2>/dev/null)
+
+        if [ -n "$changelog_body" ]; then
+          curl -s -X POST "$DASHBOARD/api/changelog" \
+            -H 'Content-Type: application/json' \
+            -d "$changelog_body" > /dev/null 2>&1
+        fi
+      fi
+    fi
     ;;
   delete)
     task_id="${2:?Usage: pipeline delete <task-id>}"
@@ -80,14 +122,66 @@ else:
   clear)
     echo "Note: clear requires server restart (in-memory store)"
     ;;
+  changelog)
+    limit="${2:-20}"
+    curl -s "$DASHBOARD/api/changelog?limit=$limit" 2>/dev/null | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+entries = data.get('entries', [])
+if not entries:
+    print('No changelog entries')
+    sys.exit(0)
+print(f'  {\"Ticket\":<8s} {\"Date\":<12s} {\"Commit\":<9s} {\"Description\"}')
+print(f'  {\"─\"*8} {\"─\"*12} {\"─\"*9} {\"─\"*40}')
+for e in entries:
+    ticket = e.get('ticket') or '—'
+    date = e['date'][:10]
+    commit = (e.get('commits') or ['—'])[0][:7]
+    desc = e['description'][:60]
+    print(f'  {ticket:<8s} {date:<12s} {commit:<9s} {desc}')
+print(f'\n  Showing {len(entries)} of {data.get(\"total\", len(entries))} entries')
+" 2>/dev/null || echo "Error: Dashboard not reachable"
+    ;;
+  revert)
+    task_id="${2:?Usage: pipeline revert <task-id>}"
+    curl -s "$DASHBOARD/api/changelog?limit=500" 2>/dev/null | python3 -c "
+import sys, json
+data = json.load(sys.stdin)
+entries = data.get('entries', [])
+task_id = '$task_id'
+found = None
+for e in entries:
+    if e.get('taskId') == task_id:
+        found = e
+        break
+if not found:
+    print(f'Error: No changelog entry found for {task_id}')
+    sys.exit(1)
+commits = found.get('commits', [])
+if not commits:
+    print(f'Error: No commits recorded for {task_id}')
+    sys.exit(1)
+ticket = found.get('ticket') or task_id
+desc = found.get('description', '')[:60]
+print(f'  Entry: {ticket} — {desc}')
+print(f'  Commits: {\" \".join(commits)}')
+print()
+for sha in reversed(commits):
+    print(f'  git revert {sha}  # Revert: {desc[:40]}')
+print()
+print('  Run the above command(s) to revert this change.')
+" 2>/dev/null || echo "Error: Dashboard not reachable"
+    ;;
   *)
-    echo "Usage: pipeline <create|update|delete|list|backup|clear>"
+    echo "Usage: pipeline <create|update|delete|list|backup|clear|changelog|revert>"
     echo ""
-    echo "  create  \"name\" \"desc\" [low|medium|high] [planner|coder|researcher|reviewer|writer]"
-    echo "  update  <task-id> <queued|researching|planning|implementing|reviewing|completed>"
-    echo "  delete  <task-id>"
+    echo "  create     \"name\" \"desc\" [low|medium|high] [planner|coder|researcher|reviewer|writer]"
+    echo "  update     <task-id> <queued|researching|planning|implementing|reviewing|completed>"
+    echo "  delete     <task-id>"
     echo "  list"
-    echo "  backup  — save snapshot to backups/pipeline/"
+    echo "  backup     — save snapshot to backups/pipeline/"
+    echo "  changelog  [limit] — show recent changelog entries"
+    echo "  revert     <task-id> — show git revert command for a completed task"
     exit 1
     ;;
 esac
