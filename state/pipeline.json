@@ -185,7 +185,7 @@
     {
       "id": "task-26",
       "name": "J-040: Stripe domain purchase flow",
-      "description": "Full self-service domain purchase: Stripe checkout → auto-register via NameSilo → confirmation",
+      "description": "Full self-service domain purchase: Stripe checkout \u2192 auto-register via NameSilo \u2192 confirmation",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -245,7 +245,7 @@
     {
       "id": "task-32",
       "name": "J-047: Expand suggestion engine",
-      "description": "Prefixes/suffixes across .com/.net/.io, hyphenated splits, plurals — up to 40 candidates in 2 batches",
+      "description": "Prefixes/suffixes across .com/.net/.io, hyphenated splits, plurals \u2014 up to 40 candidates in 2 batches",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "medium",
@@ -264,7 +264,7 @@
     },
     {
       "id": "task-34",
-      "name": "EWD: Edgewood Monuments",
+      "name": "J-034: EWD: Edgewood Monuments",
       "description": "Scrape edgewoodmonuments.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -274,7 +274,7 @@
     },
     {
       "id": "task-35",
-      "name": "EWD: Varney Family Law",
+      "name": "J-034: EWD: Varney Family Law",
       "description": "Scrape varneyfamilylaw.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -284,7 +284,7 @@
     },
     {
       "id": "task-36",
-      "name": "EWD: Fab Quantum Harmony",
+      "name": "J-034: EWD: Fab Quantum Harmony",
       "description": "Scrape fabquantumharmony.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -294,7 +294,7 @@
     },
     {
       "id": "task-37",
-      "name": "EWD: SSA K-12",
+      "name": "J-034: EWD: SSA K-12",
       "description": "Scrape ssak12.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -304,7 +304,7 @@
     },
     {
       "id": "task-38",
-      "name": "EWD: Big Door Realty",
+      "name": "J-034: EWD: Big Door Realty",
       "description": "Scrape bigdoorrealty.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -314,7 +314,7 @@
     },
     {
       "id": "task-39",
-      "name": "EWD: Palace Auto Detail",
+      "name": "J-034: EWD: Palace Auto Detail",
       "description": "Scrape palaceautodetail.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -324,7 +324,7 @@
     },
     {
       "id": "task-40",
-      "name": "EWD: Vitesse Worldwide",
+      "name": "J-034: EWD: Vitesse Worldwide",
       "description": "Scrape vitesseworldwide.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -334,7 +334,7 @@
     },
     {
       "id": "task-41",
-      "name": "EWD: ServPro Phoenix",
+      "name": "J-034: EWD: ServPro Phoenix",
       "description": "Scrape servprophoenix.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -344,7 +344,7 @@
     },
     {
       "id": "task-42",
-      "name": "EWD: MBA Real Estate",
+      "name": "J-034: EWD: MBA Real Estate",
       "description": "Scrape mba-re.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -354,7 +354,7 @@
     },
     {
       "id": "task-43",
-      "name": "EWD: CMP Holdings",
+      "name": "J-034: EWD: CMP Holdings",
       "description": "Scrape cmpholdings.net, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -364,7 +364,7 @@
     },
     {
       "id": "task-44",
-      "name": "EWD: MRI Software",
+      "name": "J-034: EWD: MRI Software",
       "description": "Scrape mrisoftware.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -374,7 +374,7 @@
     },
     {
       "id": "task-45",
-      "name": "EWD: Harbor Counseling",
+      "name": "J-034: EWD: Harbor Counseling",
       "description": "Scrape theharborcounseling.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -384,7 +384,7 @@
     },
     {
       "id": "task-46",
-      "name": "EWD: Andersons Nutrition",
+      "name": "J-034: EWD: Andersons Nutrition",
       "description": "Scrape andersonsnutrition.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -394,7 +394,7 @@
     },
     {
       "id": "task-47",
-      "name": "EWD: Western Cleaning Solutions",
+      "name": "J-034: EWD: Western Cleaning Solutions",
       "description": "Scrape westerncleaningsolutions.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -404,7 +404,7 @@
     },
     {
       "id": "task-48",
-      "name": "EWD: KOACC",
+      "name": "J-034: EWD: KOACC",
       "description": "Scrape koacc.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -414,7 +414,7 @@
     },
     {
       "id": "task-49",
-      "name": "EWD: LCR Law Office",
+      "name": "J-034: EWD: LCR Law Office",
       "description": "Scrape lcrlawoffice.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -424,7 +424,7 @@
     },
     {
       "id": "task-50",
-      "name": "EWD: LeBaron Carroll",
+      "name": "J-034: EWD: LeBaron Carroll",
       "description": "Scrape LeBaronCarroll.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -434,7 +434,7 @@
     },
     {
       "id": "task-51",
-      "name": "EWD: Great Bell Inc",
+      "name": "J-034: EWD: Great Bell Inc",
       "description": "Scrape greatbellinc.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -444,7 +444,7 @@
     },
     {
       "id": "task-52",
-      "name": "EWD: East Valley Mediator",
+      "name": "J-034: EWD: East Valley Mediator",
       "description": "Scrape eastvalleymediator.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -454,7 +454,7 @@
     },
     {
       "id": "task-53",
-      "name": "EWD: Marshall Law Firm",
+      "name": "J-034: EWD: Marshall Law Firm",
       "description": "Scrape themarshalllawfirmpllc.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -464,7 +464,7 @@
     },
     {
       "id": "task-54",
-      "name": "EWD: Peterson Law Firm",
+      "name": "J-034: EWD: Peterson Law Firm",
       "description": "Scrape thepetersonlawfirm.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -474,7 +474,7 @@
     },
     {
       "id": "task-55",
-      "name": "EWD: Arizona Law Group",
+      "name": "J-034: EWD: Arizona Law Group",
       "description": "Scrape arizonalawgroup.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -484,7 +484,7 @@
     },
     {
       "id": "task-56",
-      "name": "EWD: AZ Offices",
+      "name": "J-049: EWD: AZ Offices",
       "description": "Scrape azoffices.com, extract content/images, build portfolio site for Ego Web Design",
       "stage": "completed",
       "assignedAgent": null,
@@ -494,8 +494,8 @@
     },
     {
       "id": "task-57",
-      "name": "QA: Full audit of all 22 EWD sites",
-      "description": "Comprehensive QA sweep — phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
+      "name": "J-054: QA: Full audit of all 22 EWD sites",
+      "description": "Comprehensive QA sweep \u2014 phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -504,7 +504,7 @@
     },
     {
       "id": "task-58",
-      "name": "Fix: Logos — ServPro, MBA, East Valley, AZ Law Group",
+      "name": "J-050: Fix: Logos \u2014 ServPro, MBA, East Valley, AZ Law Group",
       "description": "Add actual business logos to 4 sites that had icon/text placeholders",
       "stage": "completed",
       "assignedAgent": null,
@@ -514,7 +514,7 @@
     },
     {
       "id": "task-59",
-      "name": "Fix: Nav links — CMP, ServPro, East Valley, Anderson's, Great Bell",
+      "name": "J-051: Fix: Nav links \u2014 CMP, ServPro, East Valley, Anderson's, Great Bell",
       "description": "Convert non-functional spans to anchor links, add section IDs for smooth scroll",
       "stage": "completed",
       "assignedAgent": null,
@@ -524,8 +524,8 @@
     },
     {
       "id": "task-60",
-      "name": "Build: AZ Offices portfolio site",
-      "description": "New site — 8 real photos, 3 locations, real pricing, scraped from offices.co",
+      "name": "J-049: Build: AZ Offices portfolio site",
+      "description": "New site \u2014 8 real photos, 3 locations, real pricing, scraped from offices.co",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -534,8 +534,8 @@
     },
     {
       "id": "task-61",
-      "name": "Fix: AZ Law Group attorney photo cropping",
-      "description": "Increased image height h-56→h-64, repositioned object-position to prevent face cutoff",
+      "name": "J-052: Fix: AZ Law Group attorney photo cropping",
+      "description": "Increased image height h-56\u2192h-64, repositioned object-position to prevent face cutoff",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -544,7 +544,7 @@
     },
     {
       "id": "task-62",
-      "name": "Fix: CMP Holdings fake 555 phone number",
+      "name": "J-053: Fix: CMP Holdings fake 555 phone number",
       "description": "Removed fake (412) 555-0100, replaced with mailto contact link",
       "stage": "completed",
       "assignedAgent": null,
@@ -554,8 +554,8 @@
     },
     {
       "id": "task-63",
-      "name": "QA: Anderson's Nutrition",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
+      "name": "J-054: QA: Anderson's Nutrition",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -564,8 +564,8 @@
     },
     {
       "id": "task-64",
-      "name": "QA: Arizona Law Group",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for arizona-law-group",
+      "name": "J-054: QA: Arizona Law Group",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for arizona-law-group",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -574,8 +574,8 @@
     },
     {
       "id": "task-65",
-      "name": "QA: AZ Offices",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for az-offices",
+      "name": "J-054: QA: AZ Offices",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for az-offices",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -584,8 +584,8 @@
     },
     {
       "id": "task-66",
-      "name": "QA: Big Door Realty",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for big-door-realty",
+      "name": "J-054: QA: Big Door Realty",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for big-door-realty",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -594,8 +594,8 @@
     },
     {
       "id": "task-67",
-      "name": "QA: Caliguri's Martial Arts",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
+      "name": "J-054: QA: Caliguri's Martial Arts",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -604,8 +604,8 @@
     },
     {
       "id": "task-68",
-      "name": "QA: Cirigliano Plumbing",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
+      "name": "J-054: QA: Cirigliano Plumbing",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -614,8 +614,8 @@
     },
     {
       "id": "task-69",
-      "name": "QA: CMP Holdings",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for cmp-holdings",
+      "name": "J-054: QA: CMP Holdings",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cmp-holdings",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -624,8 +624,8 @@
     },
     {
       "id": "task-70",
-      "name": "QA: DNA Custom Homes",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
+      "name": "J-054: QA: DNA Custom Homes",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -634,8 +634,8 @@
     },
     {
       "id": "task-71",
-      "name": "QA: East Valley Mediator",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
+      "name": "J-054: QA: East Valley Mediator",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -644,8 +644,8 @@
     },
     {
       "id": "task-72",
-      "name": "QA: Edgewood Monuments",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
+      "name": "J-054: QA: Edgewood Monuments",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -654,8 +654,8 @@
     },
     {
       "id": "task-73",
-      "name": "QA: FAB Quantum Harmony",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
+      "name": "J-054: QA: FAB Quantum Harmony",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -664,8 +664,8 @@
     },
     {
       "id": "task-74",
-      "name": "QA: Grand View Golf",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for grand-view-golf",
+      "name": "J-054: QA: Grand View Golf",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for grand-view-golf",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -674,8 +674,8 @@
     },
     {
       "id": "task-75",
-      "name": "QA: Great Bell Inc",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for great-bell-inc",
+      "name": "J-054: QA: Great Bell Inc",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for great-bell-inc",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -684,8 +684,8 @@
     },
     {
       "id": "task-76",
-      "name": "QA: Harbor Counseling",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for harbor-counseling",
+      "name": "J-054: QA: Harbor Counseling",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for harbor-counseling",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -694,8 +694,8 @@
     },
     {
       "id": "task-77",
-      "name": "QA: Inspirational Designs",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for inspirational-designs",
+      "name": "J-054: QA: Inspirational Designs",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for inspirational-designs",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -704,8 +704,8 @@
     },
     {
       "id": "task-78",
-      "name": "QA: Kelly Realty",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for kelly-realty",
+      "name": "J-054: QA: Kelly Realty",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for kelly-realty",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -714,8 +714,8 @@
     },
     {
       "id": "task-79",
-      "name": "QA: KOACC",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for koacc",
+      "name": "J-054: QA: KOACC",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for koacc",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -724,8 +724,8 @@
     },
     {
       "id": "task-80",
-      "name": "QA: LCR Law Office",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for lcr-law-office",
+      "name": "J-054: QA: LCR Law Office",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lcr-law-office",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -734,8 +734,8 @@
     },
     {
       "id": "task-81",
-      "name": "QA: LeBaron Carroll",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
+      "name": "J-054: QA: LeBaron Carroll",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -744,8 +744,8 @@
     },
     {
       "id": "task-82",
-      "name": "QA: Marshall Law Firm",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
+      "name": "J-054: QA: Marshall Law Firm",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -754,8 +754,8 @@
     },
     {
       "id": "task-83",
-      "name": "QA: MBA Real Estate",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for mba-real-estate",
+      "name": "J-054: QA: MBA Real Estate",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mba-real-estate",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -764,8 +764,8 @@
     },
     {
       "id": "task-84",
-      "name": "QA: MRI Software",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for mri-software",
+      "name": "J-054: QA: MRI Software",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mri-software",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -774,8 +774,8 @@
     },
     {
       "id": "task-85",
-      "name": "QA: Nicholas Electric",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for nicholas-electric",
+      "name": "J-054: QA: Nicholas Electric",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for nicholas-electric",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -784,8 +784,8 @@
     },
     {
       "id": "task-86",
-      "name": "QA: Palace Auto Detail",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
+      "name": "J-054: QA: Palace Auto Detail",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -794,8 +794,8 @@
     },
     {
       "id": "task-87",
-      "name": "QA: Patriot Pest Control",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
+      "name": "J-054: QA: Patriot Pest Control",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -804,8 +804,8 @@
     },
     {
       "id": "task-88",
-      "name": "QA: Peterson Law Firm",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
+      "name": "J-054: QA: Peterson Law Firm",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -814,8 +814,8 @@
     },
     {
       "id": "task-89",
-      "name": "QA: ServPro Phoenix",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
+      "name": "J-054: QA: ServPro Phoenix",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -824,8 +824,8 @@
     },
     {
       "id": "task-90",
-      "name": "QA: SSA K-12",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for ssa-k12",
+      "name": "J-054: QA: SSA K-12",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for ssa-k12",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -834,8 +834,8 @@
     },
     {
       "id": "task-91",
-      "name": "QA: Three Rivers Pickleball",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
+      "name": "J-054: QA: Three Rivers Pickleball",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -844,8 +844,8 @@
     },
     {
       "id": "task-92",
-      "name": "QA: Varney Family Law",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for varney-family-law",
+      "name": "J-054: QA: Varney Family Law",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for varney-family-law",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -854,8 +854,8 @@
     },
     {
       "id": "task-93",
-      "name": "QA: Vitesse Worldwide",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
+      "name": "J-054: QA: Vitesse Worldwide",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -864,8 +864,8 @@
     },
     {
       "id": "task-94",
-      "name": "QA: Western Cleaning Solutions",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
+      "name": "J-054: QA: Western Cleaning Solutions",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -874,8 +874,8 @@
     },
     {
       "id": "task-95",
-      "name": "QA: Zeke & Son Roofing",
-      "description": "Full QA — phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
+      "name": "J-054: QA: Zeke & Son Roofing",
+      "description": "Full QA \u2014 phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
       "stage": "completed",
       "assignedAgent": null,
       "priority": "high",
@@ -884,7 +884,7 @@
     },
     {
       "id": "task-96",
-      "name": "Fix: Kelly Realty logo",
+      "name": "J-055: Fix: Kelly Realty logo",
       "description": "Download and add actual logo image",
       "stage": "completed",
       "assignedAgent": null,
@@ -894,7 +894,7 @@
     },
     {
       "id": "task-97",
-      "name": "Fix: Three Rivers Pickleball — 555 phone, logo, images, footer",
+      "name": "J-056: Fix: Three Rivers Pickleball \u2014 555 phone, logo, images, footer",
       "description": "Critical fixes: fake phone, unused logo, zero images, missing EWD credit",
       "stage": "completed",
       "assignedAgent": null,
@@ -904,13 +904,13 @@
     },
     {
       "id": "task-98",
-      "name": "J-048: Changelog system — persistent history with ticket tracking",
+      "name": "J-048: Changelog system \u2014 persistent history with ticket tracking",
       "description": "changelog.json, API endpoints, CLI commands, dashboard UI, backfill",
-      "stage": "implementing",
-      "assignedAgent": "coder",
+      "stage": "completed",
+      "assignedAgent": null,
       "priority": "high",
       "createdAt": "2026-03-17T03:04:07.814Z",
-      "updatedAt": "2026-03-17T03:04:07.888Z"
+      "updatedAt": "2026-03-17T03:10:10.204Z"
     }
   ],
   "taskAgentHistory": {
@@ -1295,8 +1295,9 @@
       "coder"
     ],
     "task-98": [
-      "coder"
+      "coder",
+      "reviewer"
     ]
   },
-  "savedAt": "2026-03-17T03:04:08.389Z"
+  "savedAt": "2026-03-17T03:10:10.706Z"
 }

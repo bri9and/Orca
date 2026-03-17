@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextEntryId": 91,
+  "nextEntryId": 92,
   "entries": [
     {
       "id": 1,
@@ -294,10 +294,10 @@
     },
     {
       "id": 27,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-34",
       "date": "2026-03-17T00:34:03.543Z",
-      "description": "EWD: Edgewood Monuments: Scrape edgewoodmonuments.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Edgewood Monuments: Scrape edgewoodmonuments.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -305,10 +305,10 @@
     },
     {
       "id": 28,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-35",
       "date": "2026-03-17T00:35:37.342Z",
-      "description": "EWD: Varney Family Law: Scrape varneyfamilylaw.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Varney Family Law: Scrape varneyfamilylaw.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -316,10 +316,10 @@
     },
     {
       "id": 29,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-36",
       "date": "2026-03-17T00:33:46.800Z",
-      "description": "EWD: Fab Quantum Harmony: Scrape fabquantumharmony.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Fab Quantum Harmony: Scrape fabquantumharmony.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -327,10 +327,10 @@
     },
     {
       "id": 30,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-37",
       "date": "2026-03-17T00:36:30.474Z",
-      "description": "EWD: SSA K-12: Scrape ssak12.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: SSA K-12: Scrape ssak12.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -338,10 +338,10 @@
     },
     {
       "id": 31,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-38",
       "date": "2026-03-17T00:34:14.891Z",
-      "description": "EWD: Big Door Realty: Scrape bigdoorrealty.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Big Door Realty: Scrape bigdoorrealty.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -349,10 +349,10 @@
     },
     {
       "id": 32,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-39",
       "date": "2026-03-17T00:35:09.994Z",
-      "description": "EWD: Palace Auto Detail: Scrape palaceautodetail.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Palace Auto Detail: Scrape palaceautodetail.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -360,10 +360,10 @@
     },
     {
       "id": 33,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-40",
       "date": "2026-03-17T00:35:51.773Z",
-      "description": "EWD: Vitesse Worldwide: Scrape vitesseworldwide.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Vitesse Worldwide: Scrape vitesseworldwide.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -371,10 +371,10 @@
     },
     {
       "id": 34,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-41",
       "date": "2026-03-17T00:35:36.002Z",
-      "description": "EWD: ServPro Phoenix: Scrape servprophoenix.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: ServPro Phoenix: Scrape servprophoenix.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [
         "94db02f"
@@ -384,10 +384,10 @@
     },
     {
       "id": 35,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-42",
       "date": "2026-03-17T00:36:46.845Z",
-      "description": "EWD: MBA Real Estate: Scrape mba-re.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: MBA Real Estate: Scrape mba-re.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -395,10 +395,10 @@
     },
     {
       "id": 36,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-43",
       "date": "2026-03-17T00:35:42.161Z",
-      "description": "EWD: CMP Holdings: Scrape cmpholdings.net, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: CMP Holdings: Scrape cmpholdings.net, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -406,10 +406,10 @@
     },
     {
       "id": 37,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-44",
       "date": "2026-03-17T00:36:09.332Z",
-      "description": "EWD: MRI Software: Scrape mrisoftware.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: MRI Software: Scrape mrisoftware.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -417,10 +417,10 @@
     },
     {
       "id": 38,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-45",
       "date": "2026-03-17T00:36:04.914Z",
-      "description": "EWD: Harbor Counseling: Scrape theharborcounseling.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Harbor Counseling: Scrape theharborcounseling.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -428,10 +428,10 @@
     },
     {
       "id": 39,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-46",
       "date": "2026-03-17T00:35:17.503Z",
-      "description": "EWD: Andersons Nutrition: Scrape andersonsnutrition.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Andersons Nutrition: Scrape andersonsnutrition.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -439,10 +439,10 @@
     },
     {
       "id": 40,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-47",
       "date": "2026-03-17T00:38:07.065Z",
-      "description": "EWD: Western Cleaning Solutions: Scrape westerncleaningsolutions.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Western Cleaning Solutions: Scrape westerncleaningsolutions.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -450,10 +450,10 @@
     },
     {
       "id": 41,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-48",
       "date": "2026-03-17T00:38:46.458Z",
-      "description": "EWD: KOACC: Scrape koacc.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: KOACC: Scrape koacc.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -461,10 +461,10 @@
     },
     {
       "id": 42,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-49",
       "date": "2026-03-17T00:38:21.856Z",
-      "description": "EWD: LCR Law Office: Scrape lcrlawoffice.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: LCR Law Office: Scrape lcrlawoffice.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -472,10 +472,10 @@
     },
     {
       "id": 43,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-50",
       "date": "2026-03-17T00:36:35.146Z",
-      "description": "EWD: LeBaron Carroll: Scrape LeBaronCarroll.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: LeBaron Carroll: Scrape LeBaronCarroll.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -483,10 +483,10 @@
     },
     {
       "id": 44,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-51",
       "date": "2026-03-17T00:38:29.721Z",
-      "description": "EWD: Great Bell Inc: Scrape greatbellinc.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Great Bell Inc: Scrape greatbellinc.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [
         "0de3efc"
@@ -496,10 +496,10 @@
     },
     {
       "id": 45,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-52",
       "date": "2026-03-17T00:38:15.442Z",
-      "description": "EWD: East Valley Mediator: Scrape eastvalleymediator.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: East Valley Mediator: Scrape eastvalleymediator.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -507,10 +507,10 @@
     },
     {
       "id": 46,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-53",
       "date": "2026-03-17T00:38:32.512Z",
-      "description": "EWD: Marshall Law Firm: Scrape themarshalllawfirmpllc.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Marshall Law Firm: Scrape themarshalllawfirmpllc.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -518,10 +518,10 @@
     },
     {
       "id": 47,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-54",
       "date": "2026-03-17T00:37:55.824Z",
-      "description": "EWD: Peterson Law Firm: Scrape thepetersonlawfirm.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Peterson Law Firm: Scrape thepetersonlawfirm.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -529,10 +529,10 @@
     },
     {
       "id": 48,
-      "ticket": null,
+      "ticket": "J-034",
       "taskId": "task-55",
       "date": "2026-03-17T00:37:38.637Z",
-      "description": "EWD: Arizona Law Group: Scrape arizonalawgroup.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-034: EWD: Arizona Law Group: Scrape arizonalawgroup.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [],
       "priority": "high",
@@ -540,10 +540,10 @@
     },
     {
       "id": 49,
-      "ticket": null,
+      "ticket": "J-049",
       "taskId": "task-56",
       "date": "2026-03-17T01:54:40.542Z",
-      "description": "EWD: AZ Offices: Scrape azoffices.com, extract content/images, build portfolio site for Ego Web Design",
+      "description": "J-049: EWD: AZ Offices: Scrape azoffices.com, extract content/images, build portfolio site for Ego Web Design",
       "project": "ewd",
       "commits": [
         "37f80fa",
@@ -554,10 +554,10 @@
     },
     {
       "id": 50,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-57",
       "date": "2026-03-17T02:20:09.096Z",
-      "description": "QA: Full audit of all 22 EWD sites: Comprehensive QA sweep \u2014 phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
+      "description": "J-054: QA: Full audit of all 22 EWD sites: Comprehensive QA sweep \u2014 phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
       "project": "ewd",
       "commits": [
         "f66774b",
@@ -573,10 +573,10 @@
     },
     {
       "id": 51,
-      "ticket": null,
+      "ticket": "J-050",
       "taskId": "task-58",
       "date": "2026-03-17T02:20:22.256Z",
-      "description": "Fix: Logos \u2014 ServPro, MBA, East Valley, AZ Law Group: Add actual business logos to 4 sites that had icon/text placeholders",
+      "description": "J-050: Fix: Logos \u2014 ServPro, MBA, East Valley, AZ Law Group: Add actual business logos to 4 sites that had icon/text placeholders",
       "project": null,
       "commits": [
         "f66774b",
@@ -591,10 +591,10 @@
     },
     {
       "id": 52,
-      "ticket": null,
+      "ticket": "J-051",
       "taskId": "task-59",
       "date": "2026-03-17T02:20:22.472Z",
-      "description": "Fix: Nav links \u2014 CMP, ServPro, East Valley, Anderson's, Great Bell: Convert non-functional spans to anchor links, add section IDs for smooth scroll",
+      "description": "J-051: Fix: Nav links \u2014 CMP, ServPro, East Valley, Anderson's, Great Bell: Convert non-functional spans to anchor links, add section IDs for smooth scroll",
       "project": null,
       "commits": [
         "0de3efc",
@@ -606,10 +606,10 @@
     },
     {
       "id": 53,
-      "ticket": null,
+      "ticket": "J-049",
       "taskId": "task-60",
       "date": "2026-03-17T02:20:22.694Z",
-      "description": "Build: AZ Offices portfolio site: New site \u2014 8 real photos, 3 locations, real pricing, scraped from offices.co",
+      "description": "J-049: Build: AZ Offices portfolio site: New site \u2014 8 real photos, 3 locations, real pricing, scraped from offices.co",
       "project": null,
       "commits": [
         "37f80fa",
@@ -620,10 +620,10 @@
     },
     {
       "id": 54,
-      "ticket": null,
+      "ticket": "J-052",
       "taskId": "task-61",
       "date": "2026-03-17T02:20:22.901Z",
-      "description": "Fix: AZ Law Group attorney photo cropping: Increased image height h-56\u2192h-64, repositioned object-position to prevent face cutoff",
+      "description": "J-052: Fix: AZ Law Group attorney photo cropping: Increased image height h-56\u2192h-64, repositioned object-position to prevent face cutoff",
       "project": null,
       "commits": [],
       "priority": "high",
@@ -631,10 +631,10 @@
     },
     {
       "id": 55,
-      "ticket": null,
+      "ticket": "J-053",
       "taskId": "task-62",
       "date": "2026-03-17T02:20:23.109Z",
-      "description": "Fix: CMP Holdings fake 555 phone number: Removed fake (412) 555-0100, replaced with mailto contact link",
+      "description": "J-053: Fix: CMP Holdings fake 555 phone number: Removed fake (412) 555-0100, replaced with mailto contact link",
       "project": null,
       "commits": [],
       "priority": "high",
@@ -642,10 +642,10 @@
     },
     {
       "id": 56,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-63",
       "date": "2026-03-17T02:51:08.709Z",
-      "description": "QA: Anderson's Nutrition: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
+      "description": "J-054: QA: Anderson's Nutrition: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
       "project": null,
       "commits": [
         "f66774b",
@@ -660,10 +660,10 @@
     },
     {
       "id": 57,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-64",
       "date": "2026-03-17T02:51:08.757Z",
-      "description": "QA: Arizona Law Group: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for arizona-law-group",
+      "description": "J-054: QA: Arizona Law Group: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for arizona-law-group",
       "project": null,
       "commits": [
         "f66774b",
@@ -678,10 +678,10 @@
     },
     {
       "id": 58,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-65",
       "date": "2026-03-17T02:51:08.804Z",
-      "description": "QA: AZ Offices: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for az-offices",
+      "description": "J-054: QA: AZ Offices: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for az-offices",
       "project": null,
       "commits": [
         "f66774b",
@@ -698,10 +698,10 @@
     },
     {
       "id": 59,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-66",
       "date": "2026-03-17T02:51:08.844Z",
-      "description": "QA: Big Door Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for big-door-realty",
+      "description": "J-054: QA: Big Door Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for big-door-realty",
       "project": null,
       "commits": [
         "f66774b",
@@ -716,10 +716,10 @@
     },
     {
       "id": 60,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-67",
       "date": "2026-03-17T02:51:08.885Z",
-      "description": "QA: Caliguri's Martial Arts: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
+      "description": "J-054: QA: Caliguri's Martial Arts: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
       "project": null,
       "commits": [
         "f66774b",
@@ -734,10 +734,10 @@
     },
     {
       "id": 61,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-68",
       "date": "2026-03-17T02:49:55.205Z",
-      "description": "QA: Cirigliano Plumbing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
+      "description": "J-054: QA: Cirigliano Plumbing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
       "project": null,
       "commits": [
         "f66774b",
@@ -752,10 +752,10 @@
     },
     {
       "id": 62,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-69",
       "date": "2026-03-17T02:49:55.577Z",
-      "description": "QA: CMP Holdings: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cmp-holdings",
+      "description": "J-054: QA: CMP Holdings: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cmp-holdings",
       "project": null,
       "commits": [
         "f66774b",
@@ -770,10 +770,10 @@
     },
     {
       "id": 63,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-70",
       "date": "2026-03-17T02:49:56.469Z",
-      "description": "QA: DNA Custom Homes: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
+      "description": "J-054: QA: DNA Custom Homes: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
       "project": null,
       "commits": [
         "f66774b",
@@ -788,10 +788,10 @@
     },
     {
       "id": 64,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-71",
       "date": "2026-03-17T02:49:56.968Z",
-      "description": "QA: East Valley Mediator: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
+      "description": "J-054: QA: East Valley Mediator: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
       "project": null,
       "commits": [
         "f66774b",
@@ -806,10 +806,10 @@
     },
     {
       "id": 65,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-72",
       "date": "2026-03-17T02:49:57.348Z",
-      "description": "QA: Edgewood Monuments: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
+      "description": "J-054: QA: Edgewood Monuments: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
       "project": null,
       "commits": [
         "f66774b",
@@ -824,10 +824,10 @@
     },
     {
       "id": 66,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-73",
       "date": "2026-03-17T02:50:23.558Z",
-      "description": "QA: FAB Quantum Harmony: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
+      "description": "J-054: QA: FAB Quantum Harmony: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
       "project": null,
       "commits": [
         "f66774b",
@@ -842,10 +842,10 @@
     },
     {
       "id": 67,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-74",
       "date": "2026-03-17T02:50:24.349Z",
-      "description": "QA: Grand View Golf: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for grand-view-golf",
+      "description": "J-054: QA: Grand View Golf: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for grand-view-golf",
       "project": null,
       "commits": [
         "f66774b",
@@ -860,10 +860,10 @@
     },
     {
       "id": 68,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-75",
       "date": "2026-03-17T02:50:24.779Z",
-      "description": "QA: Great Bell Inc: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for great-bell-inc",
+      "description": "J-054: QA: Great Bell Inc: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for great-bell-inc",
       "project": null,
       "commits": [
         "f66774b",
@@ -879,10 +879,10 @@
     },
     {
       "id": 69,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-76",
       "date": "2026-03-17T02:50:25.216Z",
-      "description": "QA: Harbor Counseling: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for harbor-counseling",
+      "description": "J-054: QA: Harbor Counseling: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for harbor-counseling",
       "project": null,
       "commits": [
         "f66774b",
@@ -897,10 +897,10 @@
     },
     {
       "id": 70,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-77",
       "date": "2026-03-17T02:50:25.787Z",
-      "description": "QA: Inspirational Designs: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for inspirational-designs",
+      "description": "J-054: QA: Inspirational Designs: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for inspirational-designs",
       "project": null,
       "commits": [
         "f66774b",
@@ -915,10 +915,10 @@
     },
     {
       "id": 71,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-78",
       "date": "2026-03-17T02:49:39.434Z",
-      "description": "QA: Kelly Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for kelly-realty",
+      "description": "J-054: QA: Kelly Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for kelly-realty",
       "project": null,
       "commits": [
         "f66774b",
@@ -933,10 +933,10 @@
     },
     {
       "id": 72,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-79",
       "date": "2026-03-17T02:49:39.533Z",
-      "description": "QA: KOACC: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for koacc",
+      "description": "J-054: QA: KOACC: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for koacc",
       "project": null,
       "commits": [
         "f66774b",
@@ -951,10 +951,10 @@
     },
     {
       "id": 73,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-80",
       "date": "2026-03-17T02:49:39.725Z",
-      "description": "QA: LCR Law Office: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lcr-law-office",
+      "description": "J-054: QA: LCR Law Office: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lcr-law-office",
       "project": null,
       "commits": [
         "f66774b",
@@ -969,10 +969,10 @@
     },
     {
       "id": 74,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-81",
       "date": "2026-03-17T02:49:39.977Z",
-      "description": "QA: LeBaron Carroll: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
+      "description": "J-054: QA: LeBaron Carroll: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
       "project": null,
       "commits": [
         "f66774b",
@@ -987,10 +987,10 @@
     },
     {
       "id": 75,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-82",
       "date": "2026-03-17T02:49:40.530Z",
-      "description": "QA: Marshall Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
+      "description": "J-054: QA: Marshall Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
       "project": null,
       "commits": [
         "f66774b",
@@ -1005,10 +1005,10 @@
     },
     {
       "id": 76,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-83",
       "date": "2026-03-17T02:50:20.610Z",
-      "description": "QA: MBA Real Estate: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mba-real-estate",
+      "description": "J-054: QA: MBA Real Estate: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mba-real-estate",
       "project": null,
       "commits": [
         "f66774b",
@@ -1023,10 +1023,10 @@
     },
     {
       "id": 77,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-84",
       "date": "2026-03-17T02:50:21.481Z",
-      "description": "QA: MRI Software: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mri-software",
+      "description": "J-054: QA: MRI Software: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mri-software",
       "project": null,
       "commits": [
         "f66774b",
@@ -1041,10 +1041,10 @@
     },
     {
       "id": 78,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-85",
       "date": "2026-03-17T02:50:21.927Z",
-      "description": "QA: Nicholas Electric: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for nicholas-electric",
+      "description": "J-054: QA: Nicholas Electric: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for nicholas-electric",
       "project": null,
       "commits": [
         "f66774b",
@@ -1059,10 +1059,10 @@
     },
     {
       "id": 79,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-86",
       "date": "2026-03-17T02:50:22.388Z",
-      "description": "QA: Palace Auto Detail: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
+      "description": "J-054: QA: Palace Auto Detail: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
       "project": null,
       "commits": [
         "f66774b",
@@ -1077,10 +1077,10 @@
     },
     {
       "id": 80,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-87",
       "date": "2026-03-17T02:50:22.927Z",
-      "description": "QA: Patriot Pest Control: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
+      "description": "J-054: QA: Patriot Pest Control: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
       "project": null,
       "commits": [
         "f66774b",
@@ -1095,10 +1095,10 @@
     },
     {
       "id": 81,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-88",
       "date": "2026-03-17T02:50:04.874Z",
-      "description": "QA: Peterson Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
+      "description": "J-054: QA: Peterson Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
       "project": null,
       "commits": [
         "f66774b",
@@ -1113,10 +1113,10 @@
     },
     {
       "id": 82,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-89",
       "date": "2026-03-17T02:50:05.322Z",
-      "description": "QA: ServPro Phoenix: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
+      "description": "J-054: QA: ServPro Phoenix: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
       "project": null,
       "commits": [
         "f66774b",
@@ -1131,10 +1131,10 @@
     },
     {
       "id": 83,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-90",
       "date": "2026-03-17T02:50:05.713Z",
-      "description": "QA: SSA K-12: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for ssa-k12",
+      "description": "J-054: QA: SSA K-12: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for ssa-k12",
       "project": null,
       "commits": [
         "f66774b",
@@ -1149,10 +1149,10 @@
     },
     {
       "id": 84,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-91",
       "date": "2026-03-17T02:50:06.342Z",
-      "description": "QA: Three Rivers Pickleball: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
+      "description": "J-054: QA: Three Rivers Pickleball: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
       "project": null,
       "commits": [
         "f66774b",
@@ -1167,10 +1167,10 @@
     },
     {
       "id": 85,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-92",
       "date": "2026-03-17T02:50:06.662Z",
-      "description": "QA: Varney Family Law: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for varney-family-law",
+      "description": "J-054: QA: Varney Family Law: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for varney-family-law",
       "project": null,
       "commits": [
         "f66774b",
@@ -1185,10 +1185,10 @@
     },
     {
       "id": 86,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-93",
       "date": "2026-03-17T02:49:46.874Z",
-      "description": "QA: Vitesse Worldwide: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
+      "description": "J-054: QA: Vitesse Worldwide: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
       "project": null,
       "commits": [
         "f66774b",
@@ -1203,10 +1203,10 @@
     },
     {
       "id": 87,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-94",
       "date": "2026-03-17T02:49:47.852Z",
-      "description": "QA: Western Cleaning Solutions: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
+      "description": "J-054: QA: Western Cleaning Solutions: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
       "project": null,
       "commits": [
         "f66774b",
@@ -1221,10 +1221,10 @@
     },
     {
       "id": 88,
-      "ticket": null,
+      "ticket": "J-054",
       "taskId": "task-95",
       "date": "2026-03-17T02:49:47.993Z",
-      "description": "QA: Zeke & Son Roofing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
+      "description": "J-054: QA: Zeke & Son Roofing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
       "project": null,
       "commits": [
         "f66774b",
@@ -1239,10 +1239,10 @@
     },
     {
       "id": 89,
-      "ticket": null,
+      "ticket": "J-055",
       "taskId": "task-96",
       "date": "2026-03-17T02:52:44.271Z",
-      "description": "Fix: Kelly Realty logo: Download and add actual logo image",
+      "description": "J-055: Fix: Kelly Realty logo: Download and add actual logo image",
       "project": null,
       "commits": [
         "f66774b",
@@ -1257,10 +1257,10 @@
     },
     {
       "id": 90,
-      "ticket": null,
+      "ticket": "J-056",
       "taskId": "task-97",
       "date": "2026-03-17T02:55:03.042Z",
-      "description": "Fix: Three Rivers Pickleball \u2014 555 phone, logo, images, footer: Critical fixes: fake phone, unused logo, zero images, missing EWD credit",
+      "description": "J-056: Fix: Three Rivers Pickleball \u2014 555 phone, logo, images, footer: Critical fixes: fake phone, unused logo, zero images, missing EWD credit",
       "project": null,
       "commits": [
         "f66774b",
@@ -1272,6 +1272,17 @@
       ],
       "priority": "high",
       "durationSeconds": 135
+    },
+    {
+      "id": 91,
+      "ticket": "J-048",
+      "taskId": "task-98",
+      "date": "2026-03-17T03:10:10.204Z",
+      "description": "J-048: Changelog system \u2014 persistent history with ticket tracking \u2014 changelog.json, API endpoints, CLI commands, dashboard UI, backfill",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 362
     }
   ]
 }
