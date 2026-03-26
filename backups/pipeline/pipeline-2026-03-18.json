@@ -1066,11 +1066,11 @@
       "id": "task-114",
       "name": "J-074: KWD Golf Course Portfolio — Research & Build (16066, 25mi)",
       "description": "Research golf courses within 25mi of 16066, evaluate websites, build demo sites for prospects with weak web presence",
-      "stage": "reviewing",
-      "assignedAgent": "reviewer",
+      "stage": "implementing",
+      "assignedAgent": "coder",
       "priority": "high",
       "createdAt": "2026-03-18T01:45:35.749Z",
-      "updatedAt": "2026-03-18T02:14:10.684Z"
+      "updatedAt": "2026-03-18T02:05:49.234Z"
     }
   ],
   "taskAgentHistory": {
@@ -1492,9 +1492,8 @@
     ],
     "task-114": [
       "researcher",
-      "coder",
-      "reviewer"
+      "coder"
     ]
   },
-  "savedAt": "2026-03-18T02:14:11.186Z"
+  "savedAt": "2026-03-18T02:14:11.020Z"
 }

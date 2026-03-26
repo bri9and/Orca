@@ -29,3 +29,20 @@
 **In-flight:** None
 
 **Blockers:** None
+
+---
+
+## 2026-03-17 — Session Continuity (from compacted context)
+
+**Completed:**
+- J-073: Added GitHub SSO button to sign-in and sign-up pages (commit 55c66a5, pushed)
+- All 5 SSO providers live: Google, Facebook, Microsoft, Apple, GitHub
+
+**In-flight:**
+- J-058: Backfill changelog.json (queued)
+- Clerk 2FA TOTP enablement (Dashboard config needed)
+- Clerk JWT session max 7 days (Dashboard config needed)
+- Production Clerk keys (currently test keys)
+- Next.js 16 middleware → proxy migration
+
+**Blockers:** None

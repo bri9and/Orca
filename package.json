@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Jarvis — AI Agent Workspace with multi-model orchestration",
   "bin": {
-    "jarvis": "./bin/jarvis"
+    "jarvis": "bin/jarvis"
   },
   "scripts": {
     "start": "./bin/jarvis",
@@ -12,7 +12,32 @@
     "dev": "cd dashboard && npm run dev -- --port 3001",
     "lint": "cd dashboard && npm run lint"
   },
-  "keywords": ["ai", "orchestrator", "agents", "claude", "dashboard"],
+  "keywords": [
+    "ai",
+    "orchestrator",
+    "agents",
+    "claude",
+    "dashboard"
+  ],
   "license": "MIT",
-  "private": true
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bri9and/orchestrator.git"
+  },
+  "author": "",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bri9and/orchestrator/issues"
+  },
+  "homepage": "https://github.com/bri9and/orchestrator#readme",
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.84",
+    "@anthropic-ai/sdk": "^0.80.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
 }

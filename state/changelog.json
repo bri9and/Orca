@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nextEntryId": 92,
+  "nextEntryId": 107,
   "entries": [
     {
       "id": 1,
@@ -209,7 +209,7 @@
       "ticket": "J-040",
       "taskId": "task-26",
       "date": "2026-03-16T00:10:57.258Z",
-      "description": "J-040: Stripe domain purchase flow: Full self-service domain purchase: Stripe checkout \u2192 auto-register via NameSilo \u2192 confirmation",
+      "description": "J-040: Stripe domain purchase flow: Full self-service domain purchase: Stripe checkout → auto-register via NameSilo → confirmation",
       "project": null,
       "commits": [],
       "priority": "high",
@@ -275,7 +275,7 @@
       "ticket": "J-047",
       "taskId": "task-32",
       "date": "2026-03-16T01:17:56.683Z",
-      "description": "J-047: Expand suggestion engine: Prefixes/suffixes across .com/.net/.io, hyphenated splits, plurals \u2014 up to 40 candidates in 2 batches",
+      "description": "J-047: Expand suggestion engine: Prefixes/suffixes across .com/.net/.io, hyphenated splits, plurals — up to 40 candidates in 2 batches",
       "project": null,
       "commits": [],
       "priority": "medium",
@@ -557,7 +557,7 @@
       "ticket": "J-054",
       "taskId": "task-57",
       "date": "2026-03-17T02:20:09.096Z",
-      "description": "J-054: QA: Full audit of all 22 EWD sites: Comprehensive QA sweep \u2014 phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
+      "description": "J-054: QA: Full audit of all 22 EWD sites: Comprehensive QA sweep — phone numbers, logos, images, nav links, footer credits, data accuracy across all 22 portfolio sites",
       "project": "ewd",
       "commits": [
         "f66774b",
@@ -576,7 +576,7 @@
       "ticket": "J-050",
       "taskId": "task-58",
       "date": "2026-03-17T02:20:22.256Z",
-      "description": "J-050: Fix: Logos \u2014 ServPro, MBA, East Valley, AZ Law Group: Add actual business logos to 4 sites that had icon/text placeholders",
+      "description": "J-050: Fix: Logos — ServPro, MBA, East Valley, AZ Law Group: Add actual business logos to 4 sites that had icon/text placeholders",
       "project": null,
       "commits": [
         "f66774b",
@@ -594,7 +594,7 @@
       "ticket": "J-051",
       "taskId": "task-59",
       "date": "2026-03-17T02:20:22.472Z",
-      "description": "J-051: Fix: Nav links \u2014 CMP, ServPro, East Valley, Anderson's, Great Bell: Convert non-functional spans to anchor links, add section IDs for smooth scroll",
+      "description": "J-051: Fix: Nav links — CMP, ServPro, East Valley, Anderson's, Great Bell: Convert non-functional spans to anchor links, add section IDs for smooth scroll",
       "project": null,
       "commits": [
         "0de3efc",
@@ -609,7 +609,7 @@
       "ticket": "J-049",
       "taskId": "task-60",
       "date": "2026-03-17T02:20:22.694Z",
-      "description": "J-049: Build: AZ Offices portfolio site: New site \u2014 8 real photos, 3 locations, real pricing, scraped from offices.co",
+      "description": "J-049: Build: AZ Offices portfolio site: New site — 8 real photos, 3 locations, real pricing, scraped from offices.co",
       "project": null,
       "commits": [
         "37f80fa",
@@ -623,7 +623,7 @@
       "ticket": "J-052",
       "taskId": "task-61",
       "date": "2026-03-17T02:20:22.901Z",
-      "description": "J-052: Fix: AZ Law Group attorney photo cropping: Increased image height h-56\u2192h-64, repositioned object-position to prevent face cutoff",
+      "description": "J-052: Fix: AZ Law Group attorney photo cropping: Increased image height h-56→h-64, repositioned object-position to prevent face cutoff",
       "project": null,
       "commits": [],
       "priority": "high",
@@ -645,7 +645,7 @@
       "ticket": "J-054",
       "taskId": "task-63",
       "date": "2026-03-17T02:51:08.709Z",
-      "description": "J-054: QA: Anderson's Nutrition: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
+      "description": "J-054: QA: Anderson's Nutrition: Full QA — phone, logo, images, nav, footer, data accuracy for andersons-nutrition",
       "project": null,
       "commits": [
         "f66774b",
@@ -663,7 +663,7 @@
       "ticket": "J-054",
       "taskId": "task-64",
       "date": "2026-03-17T02:51:08.757Z",
-      "description": "J-054: QA: Arizona Law Group: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for arizona-law-group",
+      "description": "J-054: QA: Arizona Law Group: Full QA — phone, logo, images, nav, footer, data accuracy for arizona-law-group",
       "project": null,
       "commits": [
         "f66774b",
@@ -681,7 +681,7 @@
       "ticket": "J-054",
       "taskId": "task-65",
       "date": "2026-03-17T02:51:08.804Z",
-      "description": "J-054: QA: AZ Offices: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for az-offices",
+      "description": "J-054: QA: AZ Offices: Full QA — phone, logo, images, nav, footer, data accuracy for az-offices",
       "project": null,
       "commits": [
         "f66774b",
@@ -701,7 +701,7 @@
       "ticket": "J-054",
       "taskId": "task-66",
       "date": "2026-03-17T02:51:08.844Z",
-      "description": "J-054: QA: Big Door Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for big-door-realty",
+      "description": "J-054: QA: Big Door Realty: Full QA — phone, logo, images, nav, footer, data accuracy for big-door-realty",
       "project": null,
       "commits": [
         "f66774b",
@@ -719,7 +719,7 @@
       "ticket": "J-054",
       "taskId": "task-67",
       "date": "2026-03-17T02:51:08.885Z",
-      "description": "J-054: QA: Caliguri's Martial Arts: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
+      "description": "J-054: QA: Caliguri's Martial Arts: Full QA — phone, logo, images, nav, footer, data accuracy for caliguris-martial-arts",
       "project": null,
       "commits": [
         "f66774b",
@@ -737,7 +737,7 @@
       "ticket": "J-054",
       "taskId": "task-68",
       "date": "2026-03-17T02:49:55.205Z",
-      "description": "J-054: QA: Cirigliano Plumbing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
+      "description": "J-054: QA: Cirigliano Plumbing: Full QA — phone, logo, images, nav, footer, data accuracy for cirigliano-plumbing",
       "project": null,
       "commits": [
         "f66774b",
@@ -755,7 +755,7 @@
       "ticket": "J-054",
       "taskId": "task-69",
       "date": "2026-03-17T02:49:55.577Z",
-      "description": "J-054: QA: CMP Holdings: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for cmp-holdings",
+      "description": "J-054: QA: CMP Holdings: Full QA — phone, logo, images, nav, footer, data accuracy for cmp-holdings",
       "project": null,
       "commits": [
         "f66774b",
@@ -773,7 +773,7 @@
       "ticket": "J-054",
       "taskId": "task-70",
       "date": "2026-03-17T02:49:56.469Z",
-      "description": "J-054: QA: DNA Custom Homes: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
+      "description": "J-054: QA: DNA Custom Homes: Full QA — phone, logo, images, nav, footer, data accuracy for dna-custom-homes",
       "project": null,
       "commits": [
         "f66774b",
@@ -791,7 +791,7 @@
       "ticket": "J-054",
       "taskId": "task-71",
       "date": "2026-03-17T02:49:56.968Z",
-      "description": "J-054: QA: East Valley Mediator: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
+      "description": "J-054: QA: East Valley Mediator: Full QA — phone, logo, images, nav, footer, data accuracy for east-valley-mediator",
       "project": null,
       "commits": [
         "f66774b",
@@ -809,7 +809,7 @@
       "ticket": "J-054",
       "taskId": "task-72",
       "date": "2026-03-17T02:49:57.348Z",
-      "description": "J-054: QA: Edgewood Monuments: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
+      "description": "J-054: QA: Edgewood Monuments: Full QA — phone, logo, images, nav, footer, data accuracy for edgewood-monuments",
       "project": null,
       "commits": [
         "f66774b",
@@ -827,7 +827,7 @@
       "ticket": "J-054",
       "taskId": "task-73",
       "date": "2026-03-17T02:50:23.558Z",
-      "description": "J-054: QA: FAB Quantum Harmony: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
+      "description": "J-054: QA: FAB Quantum Harmony: Full QA — phone, logo, images, nav, footer, data accuracy for fab-quantum-harmony",
       "project": null,
       "commits": [
         "f66774b",
@@ -845,7 +845,7 @@
       "ticket": "J-054",
       "taskId": "task-74",
       "date": "2026-03-17T02:50:24.349Z",
-      "description": "J-054: QA: Grand View Golf: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for grand-view-golf",
+      "description": "J-054: QA: Grand View Golf: Full QA — phone, logo, images, nav, footer, data accuracy for grand-view-golf",
       "project": null,
       "commits": [
         "f66774b",
@@ -863,7 +863,7 @@
       "ticket": "J-054",
       "taskId": "task-75",
       "date": "2026-03-17T02:50:24.779Z",
-      "description": "J-054: QA: Great Bell Inc: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for great-bell-inc",
+      "description": "J-054: QA: Great Bell Inc: Full QA — phone, logo, images, nav, footer, data accuracy for great-bell-inc",
       "project": null,
       "commits": [
         "f66774b",
@@ -882,7 +882,7 @@
       "ticket": "J-054",
       "taskId": "task-76",
       "date": "2026-03-17T02:50:25.216Z",
-      "description": "J-054: QA: Harbor Counseling: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for harbor-counseling",
+      "description": "J-054: QA: Harbor Counseling: Full QA — phone, logo, images, nav, footer, data accuracy for harbor-counseling",
       "project": null,
       "commits": [
         "f66774b",
@@ -900,7 +900,7 @@
       "ticket": "J-054",
       "taskId": "task-77",
       "date": "2026-03-17T02:50:25.787Z",
-      "description": "J-054: QA: Inspirational Designs: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for inspirational-designs",
+      "description": "J-054: QA: Inspirational Designs: Full QA — phone, logo, images, nav, footer, data accuracy for inspirational-designs",
       "project": null,
       "commits": [
         "f66774b",
@@ -918,7 +918,7 @@
       "ticket": "J-054",
       "taskId": "task-78",
       "date": "2026-03-17T02:49:39.434Z",
-      "description": "J-054: QA: Kelly Realty: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for kelly-realty",
+      "description": "J-054: QA: Kelly Realty: Full QA — phone, logo, images, nav, footer, data accuracy for kelly-realty",
       "project": null,
       "commits": [
         "f66774b",
@@ -936,7 +936,7 @@
       "ticket": "J-054",
       "taskId": "task-79",
       "date": "2026-03-17T02:49:39.533Z",
-      "description": "J-054: QA: KOACC: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for koacc",
+      "description": "J-054: QA: KOACC: Full QA — phone, logo, images, nav, footer, data accuracy for koacc",
       "project": null,
       "commits": [
         "f66774b",
@@ -954,7 +954,7 @@
       "ticket": "J-054",
       "taskId": "task-80",
       "date": "2026-03-17T02:49:39.725Z",
-      "description": "J-054: QA: LCR Law Office: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lcr-law-office",
+      "description": "J-054: QA: LCR Law Office: Full QA — phone, logo, images, nav, footer, data accuracy for lcr-law-office",
       "project": null,
       "commits": [
         "f66774b",
@@ -972,7 +972,7 @@
       "ticket": "J-054",
       "taskId": "task-81",
       "date": "2026-03-17T02:49:39.977Z",
-      "description": "J-054: QA: LeBaron Carroll: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
+      "description": "J-054: QA: LeBaron Carroll: Full QA — phone, logo, images, nav, footer, data accuracy for lebaron-carroll",
       "project": null,
       "commits": [
         "f66774b",
@@ -990,7 +990,7 @@
       "ticket": "J-054",
       "taskId": "task-82",
       "date": "2026-03-17T02:49:40.530Z",
-      "description": "J-054: QA: Marshall Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
+      "description": "J-054: QA: Marshall Law Firm: Full QA — phone, logo, images, nav, footer, data accuracy for marshall-law-firm",
       "project": null,
       "commits": [
         "f66774b",
@@ -1008,7 +1008,7 @@
       "ticket": "J-054",
       "taskId": "task-83",
       "date": "2026-03-17T02:50:20.610Z",
-      "description": "J-054: QA: MBA Real Estate: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mba-real-estate",
+      "description": "J-054: QA: MBA Real Estate: Full QA — phone, logo, images, nav, footer, data accuracy for mba-real-estate",
       "project": null,
       "commits": [
         "f66774b",
@@ -1026,7 +1026,7 @@
       "ticket": "J-054",
       "taskId": "task-84",
       "date": "2026-03-17T02:50:21.481Z",
-      "description": "J-054: QA: MRI Software: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for mri-software",
+      "description": "J-054: QA: MRI Software: Full QA — phone, logo, images, nav, footer, data accuracy for mri-software",
       "project": null,
       "commits": [
         "f66774b",
@@ -1044,7 +1044,7 @@
       "ticket": "J-054",
       "taskId": "task-85",
       "date": "2026-03-17T02:50:21.927Z",
-      "description": "J-054: QA: Nicholas Electric: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for nicholas-electric",
+      "description": "J-054: QA: Nicholas Electric: Full QA — phone, logo, images, nav, footer, data accuracy for nicholas-electric",
       "project": null,
       "commits": [
         "f66774b",
@@ -1062,7 +1062,7 @@
       "ticket": "J-054",
       "taskId": "task-86",
       "date": "2026-03-17T02:50:22.388Z",
-      "description": "J-054: QA: Palace Auto Detail: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
+      "description": "J-054: QA: Palace Auto Detail: Full QA — phone, logo, images, nav, footer, data accuracy for palace-auto-detail",
       "project": null,
       "commits": [
         "f66774b",
@@ -1080,7 +1080,7 @@
       "ticket": "J-054",
       "taskId": "task-87",
       "date": "2026-03-17T02:50:22.927Z",
-      "description": "J-054: QA: Patriot Pest Control: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
+      "description": "J-054: QA: Patriot Pest Control: Full QA — phone, logo, images, nav, footer, data accuracy for patriot-pest-control",
       "project": null,
       "commits": [
         "f66774b",
@@ -1098,7 +1098,7 @@
       "ticket": "J-054",
       "taskId": "task-88",
       "date": "2026-03-17T02:50:04.874Z",
-      "description": "J-054: QA: Peterson Law Firm: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
+      "description": "J-054: QA: Peterson Law Firm: Full QA — phone, logo, images, nav, footer, data accuracy for peterson-law-firm",
       "project": null,
       "commits": [
         "f66774b",
@@ -1116,7 +1116,7 @@
       "ticket": "J-054",
       "taskId": "task-89",
       "date": "2026-03-17T02:50:05.322Z",
-      "description": "J-054: QA: ServPro Phoenix: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
+      "description": "J-054: QA: ServPro Phoenix: Full QA — phone, logo, images, nav, footer, data accuracy for servpro-phoenix",
       "project": null,
       "commits": [
         "f66774b",
@@ -1134,7 +1134,7 @@
       "ticket": "J-054",
       "taskId": "task-90",
       "date": "2026-03-17T02:50:05.713Z",
-      "description": "J-054: QA: SSA K-12: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for ssa-k12",
+      "description": "J-054: QA: SSA K-12: Full QA — phone, logo, images, nav, footer, data accuracy for ssa-k12",
       "project": null,
       "commits": [
         "f66774b",
@@ -1152,7 +1152,7 @@
       "ticket": "J-054",
       "taskId": "task-91",
       "date": "2026-03-17T02:50:06.342Z",
-      "description": "J-054: QA: Three Rivers Pickleball: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
+      "description": "J-054: QA: Three Rivers Pickleball: Full QA — phone, logo, images, nav, footer, data accuracy for three-rivers-pickleball",
       "project": null,
       "commits": [
         "f66774b",
@@ -1170,7 +1170,7 @@
       "ticket": "J-054",
       "taskId": "task-92",
       "date": "2026-03-17T02:50:06.662Z",
-      "description": "J-054: QA: Varney Family Law: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for varney-family-law",
+      "description": "J-054: QA: Varney Family Law: Full QA — phone, logo, images, nav, footer, data accuracy for varney-family-law",
       "project": null,
       "commits": [
         "f66774b",
@@ -1188,7 +1188,7 @@
       "ticket": "J-054",
       "taskId": "task-93",
       "date": "2026-03-17T02:49:46.874Z",
-      "description": "J-054: QA: Vitesse Worldwide: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
+      "description": "J-054: QA: Vitesse Worldwide: Full QA — phone, logo, images, nav, footer, data accuracy for vitesse-worldwide",
       "project": null,
       "commits": [
         "f66774b",
@@ -1206,7 +1206,7 @@
       "ticket": "J-054",
       "taskId": "task-94",
       "date": "2026-03-17T02:49:47.852Z",
-      "description": "J-054: QA: Western Cleaning Solutions: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
+      "description": "J-054: QA: Western Cleaning Solutions: Full QA — phone, logo, images, nav, footer, data accuracy for western-cleaning-solutions",
       "project": null,
       "commits": [
         "f66774b",
@@ -1224,7 +1224,7 @@
       "ticket": "J-054",
       "taskId": "task-95",
       "date": "2026-03-17T02:49:47.993Z",
-      "description": "J-054: QA: Zeke & Son Roofing: Full QA \u2014 phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
+      "description": "J-054: QA: Zeke & Son Roofing: Full QA — phone, logo, images, nav, footer, data accuracy for zeke-son-roofing",
       "project": null,
       "commits": [
         "f66774b",
@@ -1260,7 +1260,7 @@
       "ticket": "J-056",
       "taskId": "task-97",
       "date": "2026-03-17T02:55:03.042Z",
-      "description": "J-056: Fix: Three Rivers Pickleball \u2014 555 phone, logo, images, footer: Critical fixes: fake phone, unused logo, zero images, missing EWD credit",
+      "description": "J-056: Fix: Three Rivers Pickleball — 555 phone, logo, images, footer: Critical fixes: fake phone, unused logo, zero images, missing EWD credit",
       "project": null,
       "commits": [
         "f66774b",
@@ -1278,11 +1278,176 @@
       "ticket": "J-048",
       "taskId": "task-98",
       "date": "2026-03-17T03:10:10.204Z",
-      "description": "J-048: Changelog system \u2014 persistent history with ticket tracking \u2014 changelog.json, API endpoints, CLI commands, dashboard UI, backfill",
+      "description": "J-048: Changelog system — persistent history with ticket tracking — changelog.json, API endpoints, CLI commands, dashboard UI, backfill",
       "project": null,
       "commits": [],
       "priority": "high",
       "durationSeconds": 362
+    },
+    {
+      "id": 92,
+      "ticket": "J-060",
+      "taskId": "task-99",
+      "date": "2026-03-17T03:40:17.090Z",
+      "description": "J-060: Remove addons section from EWD site — Remove entire addons section from egowebdesign.com",
+      "project": "EWD",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 491
+    },
+    {
+      "id": 93,
+      "ticket": "J-061",
+      "taskId": "task-100",
+      "date": "2026-03-17T03:41:16.287Z",
+      "description": "J-061: EWD — Update hosting plans with competitive pricing — Research-backed hosting tier update. Remove CDN claim, add Vercel security features, adjust pricing to market rates. Resell Vercel add-ons at 100% markup.",
+      "project": "EWD",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 59
+    },
+    {
+      "id": 94,
+      "ticket": "J-063",
+      "taskId": "task-102",
+      "date": "2026-03-17T04:04:43.661Z",
+      "description": "J-063: Clerk auth + 2FA integration — Install Clerk, middleware, sign-up/sign-in pages, 2FA TOTP",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 448
+    },
+    {
+      "id": 95,
+      "ticket": "J-064",
+      "taskId": "task-103",
+      "date": "2026-03-17T04:04:43.776Z",
+      "description": "J-064: Supabase schema + RLS — customers, domains, sites, orders tables with row-level security",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 448
+    },
+    {
+      "id": 96,
+      "ticket": "J-065",
+      "taskId": "task-104",
+      "date": "2026-03-17T04:15:53.847Z",
+      "description": "J-065: Customer dashboard layout — Protected /dashboard with sidebar, domains, sites, account sections",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1118
+    },
+    {
+      "id": 97,
+      "ticket": "J-067",
+      "taskId": "task-106",
+      "date": "2026-03-17T04:15:53.983Z",
+      "description": "J-067: Domain purchase → account flow — Update domain purchase to tie to logged-in customer, store in Supabase",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1118
+    },
+    {
+      "id": 98,
+      "ticket": "J-068",
+      "taskId": "task-107",
+      "date": "2026-03-17T04:15:54.094Z",
+      "description": "J-068: Auto-provision GitHub repos — On domain purchase, auto-create repo from template in egowebdesign org",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1118
+    },
+    {
+      "id": 99,
+      "ticket": "J-069",
+      "taskId": "task-108",
+      "date": "2026-03-17T04:15:54.207Z",
+      "description": "J-069: Auto-provision Vercel projects — Create Vercel project linked to GitHub repo, configure domain",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1118
+    },
+    {
+      "id": 100,
+      "ticket": "J-070",
+      "taskId": "task-109",
+      "date": "2026-03-17T04:15:54.326Z",
+      "description": "J-070: DNS auto-configuration — NameSilo API to point purchased domain to Vercel",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1118
+    },
+    {
+      "id": 101,
+      "ticket": "J-066",
+      "taskId": "task-105",
+      "date": "2026-03-17T04:25:25.669Z",
+      "description": "J-066: Create egowebdesign GitHub org — Create org via API, set up site template repo",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1690
+    },
+    {
+      "id": 102,
+      "ticket": "J-071",
+      "taskId": "task-110",
+      "date": "2026-03-17T04:25:26.226Z",
+      "description": "J-071: AI site builder with draft/approve — Customer prompt → Claude generates site → preview draft → approve → commit → deploy",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1690
+    },
+    {
+      "id": 103,
+      "ticket": "J-072",
+      "taskId": "task-111",
+      "date": "2026-03-17T04:25:26.343Z",
+      "description": "J-072: Hosting subscription flow — Stripe recurring billing for Essential/Care/Growth plans tied to customer sites",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1690
+    },
+    {
+      "id": 104,
+      "ticket": "J-062",
+      "taskId": "task-101",
+      "date": "2026-03-17T04:25:54.783Z",
+      "description": "J-062: EWD SaaS Platform — Auth, Dashboard, Auto-Provisioning, AI Builder — Full customer platform: Clerk auth+2FA, Supabase DB, customer dashboard, domain purchase tied to accounts, GitHub repo auto-creation, Vercel project auto-provisioning, DNS config, AI site builder with draft/approve/commit flow, hosting subscriptions",
+      "project": "EWD",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 1736
+    },
+    {
+      "id": 105,
+      "ticket": "J-058",
+      "taskId": "task-112",
+      "date": "2026-03-18T01:21:22.563Z",
+      "description": "J-058: EWD security hardening — critical + high fixes — Fix all 12 critical and high severity issues from QA/security audit",
+      "project": "EWD",
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 67356
+    },
+    {
+      "id": 106,
+      "ticket": "J-073",
+      "taskId": "task-113",
+      "date": "2026-03-18T01:37:18.686Z",
+      "description": "J-073: Replace NameSilo with Porkbun registrar + 75% markup — Swap all domain API routes from NameSilo to Porkbun API. Update search, checkout, registration, DNS. Apply 75% customer markup.",
+      "project": null,
+      "commits": [],
+      "priority": "high",
+      "durationSeconds": 200
     }
   ]
 }
